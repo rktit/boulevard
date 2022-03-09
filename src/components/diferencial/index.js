@@ -1,7 +1,9 @@
 import React, { useEffect, useRef, useState } from 'react'
 import ScrollableAnchor from 'react-scrollable-anchor'
-
+import { Splide, SplideSlide } from '@splidejs/react-splide'
+import '@splidejs/splide/dist/css/themes/splide-sea-green.min.css'
 import { Fade } from 'react-reveal'
+import utils from '../../utils'
 
 import aquecimento from '../../assets/icon/aquecimento.png'
 import usb from '../../assets/icon/usb.png'
@@ -14,15 +16,55 @@ import diferencial from '../../assets/file/Diferenciais.png'
 
 
 export default function Page(props) {
-  const [isMobile, setMobile] = useState(false)
-  useEffect(() => {
-    if (window.innerWidth >= 992) {
-      setMobile(false)
-    } else {
-      setMobile(true)
-    }
-  }, [window.innerWidth])
+  const [isMobile] = useState(utils.mobile());
+  const arrayFotos=[
+    {foto: aquecimento, descricao: 'Chuveiros e Torneiras Aquecidas'},
+    {foto: usb, descricao: 'Pontos USB'},
+    {foto: estendido, descricao: 'Opção de Living Estendido'},
+    {foto: arCondicionado, descricao: 'Pontos de Ar Condicionado'},
+    {foto: elevador, descricao: '2 Elevadores por Torre'},
+  ]
+  
+  const renderImg = (el) => {
+    return(
+      <SplideSlide className="d-flex justify-center items-center">
+        <div className="diferencial-item">
+          <img src={el.foto} className="" />
+          <div className="d-flex diferencial-text">
+            {el.descricao}
+          </div>
+        </div>
+      </SplideSlide>
+    )
+  }
+
   return (
+    isMobile ?
+    <div className="py-10">
+      <Fade>
+        <div className="d-flex flex-col justify-center items-center">
+          <div className="justify-center">
+            <img src={diferencial} className="w-2/2 md:w-full px-6 md:px-0" />
+          </div>
+          <div className="diferencial-content pt-5">
+            <Splide
+              className="splide-badges col-12"
+                options={{
+                rewind: true,
+                width: '100%',
+                gap: '0rem',
+                perPage: 1,
+                pagination: true,
+                arrows: false,
+              }}
+            >
+              {arrayFotos.map(el => { return(renderImg(el))})}
+            </Splide>
+          </div>
+        </div>
+      </Fade>
+    </div>
+    :
     <ScrollableAnchor id={'diferencial'}>
       <div className="py-20">
         <Fade>

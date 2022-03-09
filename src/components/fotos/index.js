@@ -1,5 +1,8 @@
 import React, { useEffect, useRef, useState } from 'react'
 import ScrollableAnchor from 'react-scrollable-anchor'
+import { Splide, SplideSlide } from '@splidejs/react-splide'
+import '@splidejs/splide/dist/css/themes/splide-sea-green.min.css'
+import utils from '../../utils'
 
 import galeria from '../../assets/file/Galeria.png'
 import boulevard from '../../assets/logo/boulevard.png'
@@ -38,10 +41,48 @@ import foto30 from '../../assets/static/Foto30.png'
 import foto31 from '../../assets/static/Foto31.png'
 import foto32 from '../../assets/static/Foto32.png'
 import foto33 from '../../assets/static/Foto33.png'
+import { TextCenter } from 'react-bootstrap-icons'
 
 export default function Page(props) {
   const btnScrollTop = useRef(null)
   const [showBtn, setShowBtn] = useState(false)
+  const [isMobile] = useState(utils.mobile());
+  const arrayFotos = [
+    foto1,
+    foto2,
+    foto3,
+    foto4,
+    foto5,
+    foto6,
+    foto7,
+    foto8,
+    foto9,
+    foto10,
+    foto11,
+    foto12,
+    foto13,
+    foto14,
+    foto15,
+    foto16,
+    foto17,
+    foto017,
+    foto18,
+    foto19,
+    foto20,
+    foto21,
+    foto22,
+    foto23,
+    foto24,
+    foto25,
+    foto26,
+    foto27,
+    foto28,
+    foto29,
+    foto30,
+    foto31,
+    foto32,
+    foto33,
+  ];
 
   useEffect(() => {
     window.addEventListener('scroll', handleScroll)
@@ -55,18 +96,49 @@ export default function Page(props) {
     }
   }
 
-  const [isMobile, setMobile] = useState(false)
-
-  useEffect(() => {
-    if (window.innerWidth >= 992) {
-      setMobile(false)
-    } else {
-      setMobile(true)
-    }
-  }, [window.innerWidth])
+  const renderImg = (value) => {
+    return(
+      <SplideSlide className="d-flex justify-center items-center" style={{alignSelf: 'center'}}>
+        <img src={value} className="w-auto md:w-3/5 pt-2 px-1" />
+      </SplideSlide>
+    )
+  }
 
   return (
-    <ScrollableAnchor id={'fotos'}>
+    isMobile ?
+      <div className='d-flex'>
+        <div className='col-12'>
+          <Splide
+            className="splide-badges col-12"
+              options={{
+              rewind: true,
+              width: 'auto',
+              height: '100%',
+              gap: '0rem',
+              perPage: 1,
+              pagination: false,
+              arrows: true,
+            }}
+          >
+            {arrayFotos.map(el => { return(renderImg(el))})}
+          </Splide>
+        </div>
+        <div className='col-12'>
+          <div className="p-5 col-12 fotos-text">
+            São mais de <strong>20 opções</strong> de lazer para potencializar <br />
+            a <strong>qualidade</strong> de vida da sua <strong>família</strong>.
+          </div>
+          <div className="w-full flex justify-center pb-10 pl-14 md:pl-4 pr-14 md:pr-4">
+            <button
+              onClick={() => window.modalModal()}
+              className="w-96 md:w-1/4 flex justify-center py-3 px-4 mt-4 border border-transparent text-sm font-medium rounded-lg text-white button-cadastro"
+            > Visite o decorado
+            </button>
+          </div>
+        </div>
+      </div>
+    :
+      <ScrollableAnchor id={'fotos'}>
       <div className="bg-fotos pt-14 pb-32 md:pb-64">
 
         <div className="flex flex-col justify-items-center items-center pb-10">
@@ -163,7 +235,6 @@ export default function Page(props) {
           </button>
         </div>
       </div>
-
     </ScrollableAnchor>
   )
 }

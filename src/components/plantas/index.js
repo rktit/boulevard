@@ -74,26 +74,26 @@ export default function Page(props) {
                       arrows: !isMobile,
                     }}
                   >
-                    <SplideSlide className="splideIcon">
-                      <img src={planta68} className="h-full"/>
+                    <SplideSlide className="justify-center items-center" style={{display:'flex', alignSelf: 'center'}}>
+                      <img src={planta68} className="md-h-full"/>
                     </SplideSlide>
-                    <SplideSlide className="splideIcon">
-                      <img src={planta82} className="h-full"/>
+                    <SplideSlide className="justify-center items-center" style={{display:'flex', alignSelf: 'center'}}>
+                      <img src={planta82} className="md-h-full"/>
                     </SplideSlide>
-                    <SplideSlide className="splideIcon">
-                      <img src={planta82Sala} className="h-full"/>
+                    <SplideSlide className="justify-center items-center" style={{display:'flex', alignSelf: 'center'}}>
+                      <img src={planta82Sala} className="md-h-full"/>
                     </SplideSlide>
-                    <SplideSlide className="splideIcon">
-                      <img src={duplexAB1} className="h-full"/>
+                    <SplideSlide className="justify-center items-center" style={{display:'flex', alignSelf: 'center'}}>
+                      <img src={duplexAB1} className="md-h-full"/>
                     </SplideSlide>
-                    <SplideSlide className="splideIcon">
-                      <img src={duplexAB2} className="h-full"/>
+                    <SplideSlide className="justify-center items-center" style={{display:'flex', alignSelf: 'center'}}>
+                      <img src={duplexAB2} className="md-h-full"/>
                     </SplideSlide>
-                    <SplideSlide className="splideIcon">
-                      <img src={duplexC1} className="h-full"/>
+                    <SplideSlide className="justify-center items-center" style={{display:'flex', alignSelf: 'center'}}>
+                      <img src={duplexC1} className="md-h-full"/>
                     </SplideSlide>
-                    <SplideSlide className="splideIcon">
-                      <img src={duplexC2} className="h-full"/>
+                    <SplideSlide className="justify-center items-center" style={{display:'flex', alignSelf: 'center'}}>
+                      <img src={duplexC2} className="md-h-full"/>
                     </SplideSlide>
 
                   </Splide>
