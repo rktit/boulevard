@@ -29,11 +29,13 @@ export default function Page() {
                 <img src={descricao} className="w-3/4 md:w-2/4" />
 
               <div className="pt-10 pb-16">
-                <button
-                  onClick={() => window.modalModal()}
+                <a
+                  // onClick={() => window.modalModal()}
+                  target="_blank"
+                  href="https://api.whatsapp.com/send?phone=5519974139043"
                   className="w-auto md:w-full flex justify-center py-3 px-10 md:px-24 mt-2 border border-transparent font-medium rounded-lg text-white button-cadastro">
                   Fale com um corretor
-                </button>
+                </a>
               </div>
             </div>
           </div>

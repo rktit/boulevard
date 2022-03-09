@@ -43,7 +43,7 @@ export default function Page(props) {
     <ScrollableAnchor id={'planta'}>
       <div className="bg-familia">
         <div className="flex flex-col pl-0 md:pl-52 py-4 md:py-0">
-          <div className="familia-title pl-0 md:pl-96 pt-0 md:pt-64">
+          <div className="familia-title pl-0 md:pl-96 pt-0 md:pt-52">
             <div className="leading-tight">
               A perfeita combinação<br /> 
               entre <strong>viver</strong> e se <strong>divertir</strong>!
@@ -57,7 +57,7 @@ export default function Page(props) {
         </div>
 
         <div className="flex justify-center align-center">
-          <div className="w-full md:w-10/12 justify-center mt-10 md:mt-20">
+          <div className="w-full md:w-10/12 justify-center pt-10 md:pt-64">
             <div className="box-planta flex flex-col md:flex-row w-auto md:w-4/4 m-4 md:m-8">
               <div className="flex flex-col pr-4 md:pr-0 pl-4 md:pl-10">
                 <img src={plantas} className="w-72 md:w-64 pt-8 md:pt-14 pl-16 md:pl-0" />

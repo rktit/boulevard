@@ -301,7 +301,7 @@ a {
 }
 .bg-familia {
   background: url(../assets/background/planta-diferencial.jpeg) top center no-repeat;
-  background-size: contain;
+  background-size: cover;
 }
 .bg-fotos {
   background: url(../assets/background/bg-fotos.jpeg) bottom center no-repeat;
@@ -567,6 +567,7 @@ background-size: cover;
   .bg-familia {
     background-color: #f5f5f2f8;
     background: url(../assets/background/bg-familia.jpeg) top center no-repeat;
+    background-size: cover;
   }
   .bg-fotos {
     background: url(../assets/background/bg-fotos.jpeg) bottom center no-repeat;
@@ -626,14 +627,14 @@ background-size: cover;
     font-family: JosefinSans-MediumItalic;
   }
   .familia-title {
-    font-size: 1.8em;  
+    font-size: 1.5em;  
     color: #b40a7f;
     text-align: center;
     text-transform: uppercase;
     font-family: SF-Pro-Display-Medium;
   }
   .familia-text {
-    font-size: 1.5em;  
+    font-size: 1.25em;  
     color: black;
     text-align: center;
     font-family: SF-Pro-Display-Regular;
@@ -645,7 +646,6 @@ background-size: cover;
     box-shadow: 0 25px 50px -1px rgb(0 0 0 / 0.25);
   }
   .box-botao {
-    border-radius: 0.2rem;  
     border-width: 0.5px;
     border-color: transparent;
     border-top-width: 1px;
