@@ -21,8 +21,11 @@ import implantacao from '../../assets/file/implantacao.png'
 
 import { Splide, SplideSlide } from '@splidejs/react-splide'
 import '@splidejs/splide/dist/css/themes/splide-sea-green.min.css'
+import { getAllByTestId } from '@testing-library/react'
 
 export default function Page(props) {
+  const [indexSlide, setIndexSlide] = useState(0);
+  const ref = useRef();
   const [isMobile, setMobile] = useState(false)
   useEffect(() => {
     if (window.innerWidth >= 992) {
@@ -31,6 +34,11 @@ export default function Page(props) {
       setMobile(true)
     }
   }, [window.innerWidth])
+
+  const moveSlide = (value) => {
+    ref.current.splide.go(value);
+  }
+
   return (
     <ScrollableAnchor id={'planta'}>
       <div className="bg-familia">
@@ -54,16 +62,17 @@ export default function Page(props) {
               <div className="flex flex-col pr-4 md:pr-0 pl-4 md:pl-10">
                 <img src={plantas} className="w-72 md:w-64 pt-8 md:pt-14 pl-16 md:pl-0" />
 
-                <img src={apto68} className="pt-10 box-botao" />
-                <img src={apto82} className="box-botao" />
-                <img src={torreC} className="box-botao" />
-                <img src={torreAB} className="box-botao" />
-                <img src={implantacao} className="box-botao" />
+                <img src={apto68} className="pt-10 box-botao" onClick={() => {moveSlide(0)}} />
+                <img src={apto82} className="box-botao" onClick={() => {moveSlide(1)}} />
+                <img src={torreC} className="box-botao" onClick={() => {moveSlide(2)}} />
+                <img src={torreAB} className="box-botao" onClick={() => {moveSlide(3)}} />
+                <img src={implantacao} className="box-botao" onClick={() => {moveSlide(4)}} />
               </div>
 
               <div className="flex w-auto md:w-full">
                 <div className="content-center">
                   <Splide
+                    ref={ref}
                     className="splide-badges col-12"
                       options={{
                       rewind: true,
