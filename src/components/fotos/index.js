@@ -98,7 +98,7 @@ export default function Page(props) {
 
   const renderImg = (value) => {
     return (
-      <SplideSlide className="d-flex justify-center items-center" style={{ alignSelf: 'center' }}>
+      <SplideSlide className="d-flex justify-center items-center" style={{ display:'flex', alignSelf: 'center' }}>
         <img src={value} className="w-auto md:w-3/5 pt-2 px-1" />
       </SplideSlide>
     )
