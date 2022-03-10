@@ -18,7 +18,7 @@ export default function Page() {
                 <img src={foto1} />
               </div>
               <div className="descricao-img py-12">
-                <img src={foto2} className="pt-48" />
+                <img src={foto2} className="pt-32" />
               </div>
               <div className="descricao-img py-4">
                 <img src={foto3} />

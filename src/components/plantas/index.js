@@ -63,10 +63,10 @@ export default function Page(props) {
                 <div className='col-12' style={{display:'flex', alignItems: 'center', flexDirection: 'column'}}>
                   <img src={plantas} className="w-72 md:w-64 pt-8 md:pt-14 md:pl-0" />
                   <img src={apto68} className="pt-10 box-botao w-100" onClick={() => {moveSlide(0)}} />
-                  <img src={apto82} className="pt-5 box-botao w-100" onClick={() => {moveSlide(1)}} />
-                  <img src={torreC} className="pt-5 box-botao w-100" onClick={() => {moveSlide(2)}} />
-                  <img src={torreAB} className="pt-5 box-botao w-100" onClick={() => {moveSlide(3)}} />
-                  <img src={implantacao} className="pt-5 box-botao w-100" onClick={() => {moveSlide(4)}} />
+                  <img src={apto82} className="pt-4 box-botao w-100" onClick={() => {moveSlide(1)}} />
+                  <img src={torreC} className="pt-4 box-botao w-100" onClick={() => {moveSlide(2)}} />
+                  <img src={torreAB} className="pt-4 box-botao w-100" onClick={() => {moveSlide(3)}} />
+                  <img src={implantacao} className="pt-4 box-botao w-100" onClick={() => {moveSlide(4)}} />
                 </div>
               </div>
 
