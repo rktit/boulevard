@@ -42,7 +42,7 @@ export default function Page(props) {
   return (
     <ScrollableAnchor id={'planta'}>
       <div className="bg-familia">
-        <div className="flex flex-col pl-0 md:pl-52 py-4 md:py-0">
+        <div className="flex flex-col pl-0 md:pl-52 pr-10 md:pr-0 py-4 md:py-0">
           <div className="familia-title pl-0 md:pl-96 pt-0 md:pt-52">
             <div className="leading-tight">
               A perfeita combinação<br /> 

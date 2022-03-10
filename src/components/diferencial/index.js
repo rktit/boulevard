@@ -27,10 +27,10 @@ export default function Page(props) {
   
   const renderImg = (el) => {
     return(
-      <SplideSlide className="d-flex justify-center items-center">
+      <SplideSlide className="flex justify-center items-center">
         <div className="diferencial-item">
           <img src={el.foto} className="" />
-          <div className="d-flex diferencial-text">
+          <div className="flex diferencial-text">
             {el.descricao}
           </div>
         </div>
@@ -42,9 +42,9 @@ export default function Page(props) {
     isMobile ?
     <div className="py-10">
       <Fade>
-        <div className="d-flex flex-col justify-center items-center">
+        <div className="flex flex-col justify-center items-center">
           <div className="justify-center">
-            <img src={diferencial} className="w-2/2 md:w-full px-6 md:px-0" />
+            <img src={diferencial} className="px-10 pt-8" />
           </div>
           <div className="diferencial-content pt-5">
             <Splide
@@ -68,9 +68,9 @@ export default function Page(props) {
     <ScrollableAnchor id={'diferencial'}>
       <div className="py-20">
         <Fade>
-          <div className="flex flex-col justify-center items-center">
+          <div className="flex flex-col items-center">
             <div className="justify-center">
-              <img src={diferencial} className="w-2/2 md:w-full px-6 md:px-0" />
+              <img src={diferencial} className="w-auto px-6 md:px-0" />
             </div>
             <div className="diferencial-content mx-0 md:mx-20 pt-10 md:pt-24">
 

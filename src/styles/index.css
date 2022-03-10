@@ -325,19 +325,28 @@ a {
 
 .galeria {
   background: url(../assets/file/Galeria.png) top center no-repeat;
-background-size: cover;
+  background-size: cover;
 }
 
+
+.topo-text {
+  font-size: 1.25em;  
+  color: white;
+  text-align: center;
+  justify-items: center;
+  justify-content: center;
+  font-family: SF-Pro-Display-Medium;
+  text-transform: uppercase;
+} 
 .descricao-img {
-  width: auto;
-  display: flex;
+  align-items: center;
+  width: fit-content;
 }
-
 
 .diferencial-box {
   align-items: center;
   justify-content: center;
-  width: 7rem;;
+  width: 7rem;
 }
 .diferencial-item {
   display: flex;
@@ -418,9 +427,11 @@ background-size: cover;
   font-size: 2.4em;
 }
 .mapa-address {
-  font-size: 3em;
+  font-size: 2.8em;
   line-height: 120%;
   color: black;
+  font-family: "SF-Pro-Display-Bold";
+
 }
 
 .imgMac {
@@ -533,22 +544,17 @@ background-size: cover;
 
 @media (max-width: 1400px) {
 }
+.mapa-title {
+  font-size: 2em;
+  text-transform: uppercase;
+  color: #b40a7f;
+  font-family: "SF-Pro-Display-Medium";
+  left: 4rem;
+}
 @media (max-width: 991px) {
 }
 @media (max-width: 767px) {
-  .font-big {
-    font-size: 2.4rem;
-  }
-  .btn-black {
-    width: 100%;
-  }
-  .btn-pink {
-    width: 100%;
-  }
 }
-
-
-
 @media (max-width: 575px) {
   .font-big {
     font-size: 2.4rem;
@@ -587,12 +593,7 @@ background-size: cover;
   .bg-white {
     background-color: #ffffff;
   }
-  .mapa-title {
-    font-size: 2em;
-    text-transform: uppercase;
-    color: #b40a7f;
-    font-family: "SF-Pro-Display-Medium";
-  }
+  
   .mapa-address {
     font-size: 1em;
     line-height: 120%;
@@ -618,8 +619,9 @@ background-size: cover;
     font-family: SF-Pro-Display-Bold;
   }
   .descricao-img {
-    width: 0px;
-  }
+     width: max-content;
+  }  
+
   .fotos-text {
     font-size: 1.8em;  
     color: black;
@@ -650,6 +652,23 @@ background-size: cover;
     border-color: transparent;
     border-top-width: 1px;
   }
+  .topo-text {
+    font-size: 1em;  
+    color: white;
+    text-align: center;
+    justify-items: center;
+    justify-content: center;
+    font-family: SF-Pro-Display-Medium;
+    text-transform: uppercase;
+  } 
+}
+  @media (max-width: 395px) {
+    .mapa-title {
+      font-size: 2em;
+      text-transform: uppercase;
+      color: #b40a7f;
+      font-family: "SF-Pro-Display-Medium";
+    }
 }
 
 /* SCROLLBAR */

@@ -35,20 +35,20 @@ export default function Page(props) {
 
   return (
     <ScrollableAnchor id={'home'}>
-      <div className="bg-topo py-2 md:py-4 px-4 md:px-0">
+      <div className="bg-topo py-2 md:py-3 px-4 md:px-1">
         <Fade>
-          <div className="font-white text-center uppercase font-medium md:font-regular">
+          <div className="topo-text pt-2 md:pt-0">
             Lançamento Boulevard de Rosé</div>
-          <div className="flex-col pl-12 md:pl-52 pt-12 md:pt-36 pb-24 px-10 md:px-0">
+          <div className="flex-col pl-12 md:pl-52 pt-24 md:pt-36 pb-24 px-10 md:px-0">
             <img
               src={boulevard}
-              width="400"
+              width="300"
             />
           </div>
           <div className="ml-6 md:ml-32">
 
             <div className="flex ">
-              <img src={topo} className="w-full md:w-2/5 pb-6" />
+              <img src={topo} className="w-auto md:w-2/5 pb-6" />
             </div>
 
             <div className="flex justify-center md:justify-start mt-12  pr-12 md:pr-40 mb-32">
@@ -93,7 +93,7 @@ export default function Page(props) {
                 
                 target="_blank"
                 href="https://api.whatsapp.com/send?phone=5519974139043"
-                className="w-full md:w-2/5 flex justify-center py-3 px-4 mt-4 border border-transparent text-sm font-medium rounded-lg text-white button-cadastro"
+                className="w-auto md:w-2/5 flex justify-center py-3 px-20 sm:px-44 md:px-4 mt-4 border border-transparent text-sm font-medium rounded-lg text-white button-cadastro"
               >
                 Cadastre-se
               </a>
@@ -106,7 +106,7 @@ export default function Page(props) {
                 href="https://api.whatsapp.com/send?phone=5519991255659"
               >
                 <img
-                  className="flex items-start md:items-end mr-2 md:mr-28 w-8 md:w-12"
+                  className="flex items-start md:items-end mr-2 md:mr-28 w-10 md:w-14"
                   src={whats}
                   alt="Whatsapp"
                 />
