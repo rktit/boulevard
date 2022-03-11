@@ -240,13 +240,11 @@ export default function Page(props) {
             a <strong>qualidade</strong> de vida da sua <strong>família</strong>.
           </div>
           <div className="w-full flex justify-center mt-6 md:mt-12 pl-14 md:pl-4 pr-14 md:pr-4">
-            <a
-              // onClick={() => window.modalModal()}
-              target="_blank"
-              href="https://api.whatsapp.com/send?phone=5519974139043"
+          <button
+                onClick={() => window.modalModal()}
               className="w-96 md:w-1/4 flex justify-center py-3 px-4 mt-4 border border-transparent text-sm font-medium rounded-lg text-white button-cadastro"
             > Visite o decorado
-            </a>
+            </button>
           </div>
         </div>
       </ScrollableAnchor>

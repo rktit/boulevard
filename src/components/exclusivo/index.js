@@ -23,13 +23,12 @@ export default function Page(props) {
                         </div>
 
                         <div className="w-full flex justify-center mt-10 px-20 md:px-0">
-                            <a
-                                // onClick={() => window.modalModal()}
-                                target="_blank"
+                        <button
+                onClick={() => window.modalModal()}
                                 href="https://api.whatsapp.com/send?phone=5519974139043"
                                 className="w-full md:w-1/4 flex justify-center py-3 px-4 mt-4 border border-transparent text-sm font-medium rounded-lg text-white button-cadastro"
                             > Saiba Mais
-                            </a>
+                            </button>
                         </div>
 
 

@@ -58,13 +58,11 @@ export default function Page(props) {
               <img src={descricao} className="w-auto	" />
 
               <div className="pt-12 pl-6">
-                <a
-                  // onClick={() => window.modalModal()}
-                  target="_blank"
-                  href="https://api.whatsapp.com/send?phone=5519974139043"
+              <button
+                onClick={() => window.modalModal()}
                   className="w-auto flex justify-center py-4 px-10 mt-2 border border-transparent font-medium rounded-lg text-white button-cadastro">
                   Fale com um corretor
-                </a>
+                </button>
               </div>
             </div>
     </div>
@@ -89,13 +87,11 @@ export default function Page(props) {
               <img src={descricao} className="w-2/3	" />
 
               <div className="pt-12">
-                <a
-                  // onClick={() => window.modalModal()}
-                  target="_blank"
-                  href="https://api.whatsapp.com/send?phone=5519974139043"
+              <button
+                onClick={() => window.modalModal()}
                   className="w-auto flex justify-center py-4 px-40 mt-2 border border-transparent font-medium rounded-lg text-white button-cadastro">
                   Fale com um corretor
-                </a>
+                </button>
               </div>
             </div>
           </div>

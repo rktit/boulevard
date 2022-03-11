@@ -88,15 +88,12 @@ export default function Page(props) {
                   placeholder="Digite seu email"
                 /> */}
 
-              <a
-                // onClick={() => window.modalModal()}
-                
-                target="_blank"
-                href="https://api.whatsapp.com/send?phone=5519974139043"
+              <button
+                onClick={() => window.modalModal()}
                 className="w-auto md:w-2/5 flex justify-center py-3 px-20 sm:px-44 md:px-4 mt-4 border border-transparent text-sm font-medium rounded-lg text-white button-cadastro"
               >
                 Cadastre-se
-              </a>
+              </button>
               {/* </form> */}
             </div>
 
