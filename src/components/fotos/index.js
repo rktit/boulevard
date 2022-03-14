@@ -163,73 +163,73 @@ export default function Page(props) {
           </div>
 
           <div class="transition duration-150 ease-out hover:ease-in">
-            <div className="flex-col px-4 md:px-20">
+            <div className="flex-col px-24">
 
               <div className="flex">
-                <img src={foto1} className="w-auto md:w-3/5 pt-2 px-1" />
-                <img src={foto2} className="w-auto md:w-2/5 pt-2 px-1" />
-                <img src={foto3} className="w-auto md:w-full px-1 pt-2" />
+                <img src={foto1} className="w-auto" />
+                <img src={foto2} className="w-auto px-1" />
+                <img src={foto3} className="w-auto" />
               </div>
 
-              <div className="flex">
-                <img src={foto4} className="w-auto md:w-3/5 pt-2 px-1" />
-                <img src={foto5} className="w-auto md:w-2/5 pt-2 px-1" />
-                <img src={foto6} className="w-auto md:w-full pt-2 px-1" />
+              <div className="flex pt-1">
+                <img src={foto4} className="w-auto" />
+                <img src={foto5} className="w-auto px-1" />
+                <img src={foto6} className="w-auto" />
               </div>
 
-              <div className="flex">
-                <img src={foto7} className="w-auto md:w-3/5 pt-2 px-1" />
-                <img src={foto8} className="w-auto md:w-2/5 pt-2 px-1" />
-                <img src={foto9} className="w-auto md:w-3/5 pt-2 px-1" />
-                <img src={foto10} className="w-auto md:w-2/5 pt-2 px-1" />
+              <div className="flex pt-1">
+                <img src={foto7} className="w-auto" />
+                <img src={foto8} className="w-auto px-1" />
+                <img src={foto9} className="w-auto pr-1" />
+                <img src={foto10} className="w-auto" />
               </div>
 
-              <div className="flex">
-                <img src={foto11} className="w-auto md:w-3/5 pt-2 px-1" />
-                <img src={foto12} className="w-auto md:w-2/5 pt-2 px-1" />
-                <img src={foto13} className="w-auto md:w-full px-1 pt-2" />
+              <div className="flex pt-1">
+                <img src={foto11} className="w-auto" />
+                <img src={foto12} className="w-auto px-1" />
+                <img src={foto13} className="w-auto" />
               </div>
 
-              <div className="flex">
-                <img src={foto14} className="w-auto md:w-3/5 pt-2 px-1" />
-                <img src={foto15} className="w-auto md:w-full px-1 pt-2" />
+              <div className="flex pt-1">
+                <img src={foto14} className="w-auto" />
+                <img src={foto15} className="w-auto pl-1" />
               </div>
 
-              <div className="flex">
-                <img src={foto16} className="w-auto md:w-3/5 pt-2 px-1" />
-                <img src={foto17} className="w-auto md:w-2/5 pt-2 px-1" />
-                <img src={foto017} className="w-auto md:w-full px-1 pt-2" />
+              <div className="flex pt-1">
+                <img src={foto16} className="w-auto" />
+                <img src={foto17} className="w-auto px-1" />
+                <img src={foto017} className="w-auto" />
               </div>
 
-              <div className="flex">
-                <img src={foto18} className="w-auto md:w-3/5 pt-2 px-1" />
-                <img src={foto19} className="w-auto md:w-2/5 pt-2 px-1" />
-                <img src={foto20} className="w-auto md:w-3/5 pt-2 px-1" />
-                <img src={foto21} className="w-auto md:w-2/5 pt-2 px-1" />
+              <div className="flex pt-1">
+                <img src={foto18} className="w-auto" />
+                <img src={foto19} className="w-auto px-1" />
+                <img src={foto20} className="w-auto px-1" />
+                <img src={foto21} className="w-auto" />
               </div>
 
-              <div className="flex">
-                <img src={foto22} className="w-auto md:w-3/5 pt-2 px-1" />
-                <img src={foto23} className="w-auto md:w-2/5 pt-2 px-1" />
-                <img src={foto24} className="w-auto md:w-full px-1 pt-2" />
+              <div className="flex pt-1">
+                <img src={foto22} className="w-auto" />
+                <img src={foto23} className="w-auto px-1" />
+                <img src={foto24} className="w-auto" />
               </div>
 
-              <div className="flex">
-                <img src={foto25} className="w-auto md:w-3/5 pt-2 px-1" />
-                <img src={foto26} className="w-auto md:w-2/5 pt-2 px-1" />
-                <img src={foto27} className="w-auto md:w-full px-1 pt-2" />
+              <div className="flex pt-1">
+                <img src={foto25} className="w-auto" />
+                <img src={foto26} className="w-auto px-1" />
+                <img src={foto27} className="w-auto" />
               </div>
 
-              <div className="flex">
-                <img src={foto28} className="w-auto md:w-3/5 pt-2 px-1" />
-                <img src={foto29} className="w-auto md:w-2/5 pt-2 px-1" />
-                <img src={foto30} className="w-auto md:w-full px-1 pt-2" />
+              <div className="flex pt-1">
+                <img src={foto28} className="w-auto" />
+                <img src={foto29} className="w-auto px-1" />
+                <img src={foto30} className="w-auto" />
               </div>
 
-              <div className="flex">
-                <img src={foto31} className="w-auto md:w-3/5 pt-2 px-1" />
-                <img src={foto32} className="w-auto md:w-2/5 pt-2 px-1" />
-                <img src={foto33} className="w-auto md:w-full px-1 pt-2" />
+              <div className="flex pt-1">
+                <img src={foto31} className="w-auto" />
+                <img src={foto32} className="w-auto px-1" />
+                <img src={foto33} className="w-auto" />
               </div>
             </div>
           </div>

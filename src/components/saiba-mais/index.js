@@ -34,30 +34,32 @@ export default function Page(props) {
 
   return (
     <ScrollableAnchor id={'home'}>
-      <div className="bg-topo w-auto pt-24 md:pt-72 py-6 md:py-16">
+      <div className="bg-topo px-4 md:px-1 py-24">
         <Fade>
-          <div className="flex flex-col md:flex-row">
-            <div className="pb-12 md:pb-52 pr-8 md:pr-0 pl-8 md:pl-64 ">
-              <img
-                src={boulevard}
-                width="400"
-              />
-            </div>
-            <div className="ml-6 md:ml-32">
-              <div className="w-full flex flex-col pb-2 md:pb-40 pl-4 md:pl-12">
-                <div className="font-black family-regular font-big">
-                  Obrigado!
-                </div>
-                <div className="font-black family-regular font-regular pr-14 md:pr-0">Recebemos seu contato e em breve retornaremos
-                </div>
-
-                <button
-                  onClick={() => window.location = "https://www.caprem.com.br/boulevard-rose"}
-                  className="w-5/6 md:w-1/10 flex justify-center py-3 px-4 mt-4 mb-8 border border-transparent font-medium rounded-lg text-white button-cadastro">Saiba Mais
-                </button>
+          <div className="topo-text">
+            Aprecie a vida!</div>
+          <div className="flex-col pl-12 md:pl-52 pt-24 md:pt-36 pb-24 px-10 md:px-0">
+            <img
+              src={boulevard}
+              width="300"
+            />
+          </div>
+          <div className="ml-6 md:ml-32">
+            <div className="w-full flex flex-col pb-2 md:pb-40 pl-4 md:pl-12">
+              <div className="saiba-title">
+                Obrigado!
               </div>
+              <div className="saiba-text">
+                Recebemos seu contato e em breve retornaremos
+              </div>
+
+              <button
+                className="w-auto md:w-2/5 flex justify-center py-3 px-20 sm:px-44 md:px-4 mt-4 border border-transparent text-sm font-medium rounded-lg text-white button-cadastro"
+              >
+                Saiba Mais
+              </button>
             </div>
-            </div>
+          </div>
 
         </Fade>
 

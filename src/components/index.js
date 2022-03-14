@@ -2,7 +2,6 @@
 
 import Topo from "./topo";
 import Descrição from "./descricao";
-import Conceito from "./conceito";
 import Fotos from "./fotos";
 import Plantas from "./plantas";
 import Diferencial from "./diferencial";
@@ -16,7 +15,6 @@ export {
 
   Topo,
   Descrição,
-  Conceito,
   Fotos,
   Plantas,
   Diferencial,

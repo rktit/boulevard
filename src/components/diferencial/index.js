@@ -76,7 +76,7 @@ export default function Page(props) {
 
               <div className="diferencial-item">
                 <img src={aquecimento} className="diferencial-box" />
-                <div className="flex diferencial-text px-0 md:px-20">
+                <div className="flex diferencial-text px-0 md:px-10">
                   Chuveiros e Torneiras Aquecidas
                 </div>
               </div>
@@ -89,13 +89,13 @@ export default function Page(props) {
 
               <div className="diferencial-item">
                 <img src={estendido} className="diferencial-box pt-4 md:pt-0" />
-                <div className="flex diferencial-text px-0 md:px-20">Opção de Living Estendido
+                <div className="flex diferencial-text px-0 md:px-10">Opção de Living Estendido
                 </div>
               </div>
 
               <div className="diferencial-item">
                 <img src={arCondicionado} className="diferencial-box pt-4 md:pt-0" />
-                <div className="flex diferencial-text px-0 md:px-20">Pontos de Ar Condicionado
+                <div className="flex diferencial-text px-0 md:px-20">Pontos de Ar-Condicionado
                 </div>
               </div>
 

@@ -4,64 +4,8 @@
 
 
 @font-face {
-  font-family: "JosefinSans-Thin";
-  src: url(../assets/fonts/JosefinSans-Thin.ttf);
-}
-@font-face {
-  font-family: "JosefinSans-ThinItalic";
-  src: url(../assets/fonts/JosefinSans-ThinItalic.ttf);
-}
-@font-face {
-  font-family: "JosefinSans-ExtraLight";
-  src: url(../assets/fonts/JosefinSans-ExtraLight.ttf);
-}
-@font-face {
-  font-family: "JosefinSans-ExtraLightItalic";
-  src: url(../assets/fonts/JosefinSans-ExtraLightItalic.ttf);
-}
-@font-face {
-  font-family: "JosefinSans-Light";
-  src: url(../assets/fonts/JosefinSans-Light.ttf);
-}
-@font-face {
-  font-family: "JosefinSans-LightItalic";
-  src: url(../assets/fonts/JosefinSans-LightItalic.ttf);
-}
-@font-face {
-  font-family: "JosefinSans-Regular";
-  src: url(../assets/fonts/JosefinSans-Regular.ttf);
-}
-@font-face {
-  font-family: "JosefinSans-Medium";
-  src: url(../assets/fonts/JosefinSans-Medium.ttf);
-}
-@font-face {
-  font-family: "JosefinSans-MediumItalic";
-  src: url(../assets/fonts/JosefinSans-MediumItalic.ttf);
-}
-@font-face {
-  font-family: "JosefinSans-SemiBold";
-  src: url(../assets/fonts/JosefinSans-SemiBold.ttf);
-}
-@font-face {
-  font-family: "JosefinSans-SemiBoldItalic";
-  src: url(../assets/fonts/JosefinSans-SemiBoldItalic.ttf);
-}
-@font-face {
-  font-family: "JosefinSans-Bold";
-  src: url(../assets/fonts/JosefinSans-Bold.ttf);
-}
-@font-face {
-  font-family: "JosefinSans-BoldItalic";
-  src: url(../assets/fonts/JosefinSans-BoldItalic.ttf);
-}
-@font-face {
-  font-family: "Montserrat-Light";
-  src: url(../assets/fonts/Montserrat-Light.ttf);
-}
-@font-face {
-  font-family: "Montserrat-Medium";
-  src: url(../assets/fonts/Montserrat-Medium.ttf);
+  font-family: "Amalfi-Coast";
+  src: url(../assets/fonts/Amalfi-Coast.ttf);
 }
 @font-face {
   font-family: "Montserrat-Black";
@@ -83,40 +27,12 @@
   font-family: "Montserrat-Thin";
   src: url(../assets/fonts/Montserrat-Thin.ttf);
 }
-@font-face {
-  font-family: "SF-Pro-Display-Black";
-  src: url(../assets/fonts/SF-Pro-Display-Black.ttf);
-}
-@font-face {
-  font-family: "SF-Pro-Display-Bold";
-  src: url(../assets/fonts/SF-Pro-Display-Bold.ttf);
-}
-@font-face {
-  font-family: "SF-Pro-Display-Heavy";
-  src: url(../assets/fonts/SF-Pro-Display-Heavy.ttf);
-}
-@font-face {
-  font-family: "SF-Pro-Display-Light";
-  src: url(../assets/fonts/SF-Pro-Display-Light.ttf);
-}
-@font-face {
-  font-family: "SF-Pro-Display-Medium";
-  src: url(../assets/fonts/SF-Pro-Display-Medium.ttf);
-}
-@font-face {
-  font-family: "SF-Pro-Display-Regular";
-  src: url(../assets/fonts/SF-Pro-Display-Regular.ttf);
-}
-@font-face {
-  font-family: "SF-Pro-Display-Thin";
-  src: url(../assets/fonts/SF-Pro-Display-Thin.ttf);
-}
 
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: "JosefinSans-Light", -apple-system, BlinkMacSystemFont, Segoe UI,
+  font-family: "Montserrat-Light", -apple-system, BlinkMacSystemFont, Segoe UI,
     Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
     sans-serif;
   color: #ffffff;
@@ -133,86 +49,24 @@ a {
   box-sizing: border-box;
 }
 
-.family-thin {
-  font-family: "JosefinSans-Thin" !important;
-}
-.family-thin-italic {
-  font-family: "JosefinSans-ThinItalic" !important;
-}
-.family-extra-light {
-  font-family: "JosefinSans-ExtraLight" !important;
-}
-.family-extra-light-italic {
-  font-family: "JosefinSans-ExtraLightItalic" !important;
-}
-.family-light {
-  font-family: "JosefinSans-Light" !important;
-}
-.family-light-italic {
-  font-family: "JosefinSans-LightItalic" !important;
-}
-.family-regular {
-  font-family: "JosefinSans-Regular" !important;
-}
-.family-medium {
-  font-family: "JosefinSans-medium" !important;
-}
-.family-medium-italic {
-  font-family: "JosefinSans-MediumItalic" !important;
-}
-.family-semibold {
-  font-family: "JosefinSans-SemiBold" !important;
-}
-.family-semibold-italic {
-  font-family: "JosefinSans-SemiBoldItalic" !important;
-}
-.family-bold {
-  font-family: "JosefinSans-Bold" !important;
-}
-.family-bold-italic {
-  font-family: "JosefinSans-BoldItalic" !important;
-}
-.family-montlight {
-  font-family: "Montserrat-Light" !important;
-}
-.family-montmedium {
-  font-family: "Montserrat-Medium" !important;
+
+.family-amalfi {
+  font-family: "Amalfi-Coast" !important;
 }
 .family-black {
   font-family: "Montserrat-Black" !important;
 }
-.family-montbold {
+.family-bold {
   font-family: "Montserrat-Bold" !important;
 }
-.family-montlight {
+.family-light {
   font-family: "Montserrat-Light" !important;
 }
-.family-montmedium {
+.family-medium {
   font-family: "Montserrat-Medium" !important;
 }
-.family-montthin {
+.family-thin {
   font-family: "Montserrat-Thin" !important;
-}
-.family-pro-black {
-  font-family: "SF-Pro-Display-Black" !important;
-}
-.family-pro-bold {
-  font-family: "SF-Pro-Display-Bold" !important;
-}
-.family-heavy {
-  font-family: "SF-Pro-Display-Heavy" !important;
-}
-.family-pro-light {
-  font-family: "SF-Pro-Display-Light" !important;
-}
-.family-pro-medium {
-  font-family: "SF-Pro-Display-Medium" !important;
-}
-.family-pro-regular {
-  font-family: "SF-Pro-Display-Regular" !important;
-}
-.family-pro-thin {
-  font-family: "SF-Pro-Display-Thin" !important;
 }
 
 
@@ -287,10 +141,7 @@ a {
 }
 
 
-.bg-conceito {
-  background: url(../assets/background/bg-conceito.jpeg) center no-repeat;
-  background-size: cover;
-}
+
 .bg-diferencial {
   background: url(../assets/background/bg-diferencial.jpeg) center center no-repeat;
   background-size: cover;
@@ -311,10 +162,6 @@ a {
   background: url(../assets/background/bg-mapa.jpeg) center no-repeat;
   background-size: cover;
 }
-.bg-topo {
-  background: url(../assets/background/bg-topo.jpeg)  center no-repeat;
-  background-size: cover;
-}
 .bg-black {
   background-color: #000000;
 }
@@ -329,20 +176,38 @@ a {
 }
 
 
+.bg-topo {
+  background: url(../assets/background/bg-topo.jpeg)  center no-repeat;
+  background-size: cover;
+  height: 120vh;
+}
 .topo-text {
   font-size: 1.25em;  
   color: white;
   text-align: center;
-  justify-items: center;
   justify-content: center;
-  font-family: SF-Pro-Display-Medium;
+  align-items: flex-start;
+  font-family: Montserrat-Medium;
   text-transform: uppercase;
 } 
-.descricao-img {
-  align-items: center;
-  width: fit-content;
+.descricao1-img {
+  width: 440px;
+}  
+.descricao2-img {
+ width: 800px;
+ padding-left: 374px;
+ padding-top: 250px;
+} 
+.descricao3-img {
+width: 1000px;
+padding-left: 678px;
+padding-top: 50px;
 }
-
+.descricao-box {
+  width: auto;
+  padding-left: 1030px;
+  padding-top: 30px;
+  }
 .diferencial-box {
   align-items: center;
   justify-content: center;
@@ -366,7 +231,7 @@ a {
   text-align: center;
   justify-items: center;
   justify-content: center;
-  font-family: SF-Pro-Display-Bold;
+  font-family: Montserrat-Bold;
   padding-left: 40px;
   padding-right: 40px;
 }
@@ -375,7 +240,7 @@ a {
   font-size: 2.5em;  
   color: black;
   text-align: center;
-  font-family: JosefinSans-MediumItalic;
+  font-family: Montserrat-Medium;
 }
 
 .familia-title {
@@ -383,13 +248,13 @@ a {
   color: #b40a7f;
   text-align: center;
   text-transform: uppercase;
-  font-family: SF-Pro-Display-Medium;
+  font-family: Montserrat-Medium;
 }
 .familia-text {
   font-size: 2em;  
   color: black;
   text-align: center;
-  font-family: SF-Pro-Display-Regular;
+  font-family: Montserrat-Medium;
 }
 
 .box-planta {
@@ -398,27 +263,49 @@ a {
   line-height: 100%;
   box-shadow: 0 25px 50px 10px rgb(0 0 0 / 0.25);
 }
-.box-botao {
-  border-radius: 0.5rem;  
-  border-width: 1px;
-  border-color: transparent;
-  border-top-width: 3px;
-}
+
 .planta-info {
   font-size: 2em;
 }
 .planta-attention strong{
-  font-family: "JosefinSans-Bold" !important;
+  font-family: "Montserrat-Bold" !important;
 }
 .planta-attention {
   font-size: 1.4em;
 }
+.button-mapa { 
+  width: 260px;
+  height: 70px;
+  border-radius: 0.5rem; 
+  border-color: #b40a7f;
+  background-color: #b40a7f;
+  color: white;
+  font-size: 1.2em;
+  font-family: "Montserrat-Medium";
+}
+.mapa-visite {
+  font-size: 2em;
+  line-height: 120%;
+  color: white;
+  text-transform: uppercase;
+  font-family: "Montserrat-Bold";
+  bottom: 70px;
+  right: 485px;
+}
+.mapa-whats {
+  font-size: 1.8em;
+  line-height: 120%;
+  color: white;
+  font-family: "Montserrat-Bold";
+  bottom: 30px;
+  right: 400px;
 
+}
 .mapa-title {
   font-size: 4em;
   text-transform: uppercase;
   color: #b40a7f;
-  font-family: "SF-Pro-Display-Medium";
+  font-family: "Montserrat-Medium";
 }
 .mapa-desc {
   font-size: 1.8em;
@@ -427,11 +314,75 @@ a {
   font-size: 2.4em;
 }
 .mapa-address {
-  font-size: 2.8em;
+  font-size: 2.25em;
   line-height: 120%;
   color: black;
-  font-family: "SF-Pro-Display-Bold";
+  font-family: "Montserrat-Bold";
+}
+.button-69 { 
+  width: 260px;
+  height: 70px;
+  border-radius: 0.5rem; 
+  border-color: #a40372;
+  background-color: #a40372;
+  color: white;
+  font-size: 1.2em;
+  font-family: "Montserrat-Medium";
+}
+.button-82 { 
+  width: 260px;
+  height: 70px;
+  border-radius: 0.5rem; 
+  border-color: #bd2d90;
+  background-color: #bd2d90;
+  color: white;
+  font-size: 1.2em;
+  font-family: "Montserrat-Medium";
+}
+.button-c { 
+  width: 260px;
+  height: 70px;
+  border-radius: 0.5rem; 
+  border-color: #bd2d90;
+  background-color: #bd2d90;
+  color: white;
+  font-size: 1.2em;
+  font-family: "Montserrat-Medium";
+}
+.button-ab { 
+  width: 260px;
+  height: 70px;
+  border-radius: 0.5rem; 
+  border-color: #bd2d90;
+  background-color: #bd2d90;
+  color: white;
+  font-size: 1.2em;
+  font-family: "Montserrat-Medium";
+}
+.button-69:active {
+  background-color: #bd2d90;
+}
+.button-82:active {
+  background-color: #a40372;
+}
+.button-c:active {
+  background-color: #a40372;
+}
+.button-ab:active {
+  background-color: #a40372;
+}
 
+.saiba-title {
+  font-size: 2em;  
+  color: black;
+  font-family: Montserrat-Medium;
+}
+.saiba-text {
+  font-size: 1.5em;  
+  color: black;
+  justify-items: center;
+  justify-content: center;
+  font-family: Montserrat-Medium;
 }
 
 .imgMac {
@@ -439,13 +390,13 @@ a {
   height: auto;
 }
 .title {
-  font-family: SF-Pro-Display-Light;
+  font-family: Montserrat-Light;
   border-left: 6px solid #b40a7f;
   padding-left: 24px;
 }
 
 .title-pink strong {
-  font-family: SF-Pro-Display-Bold;
+  font-family: Montserrat-Bold;
   color: #b40a7f;
   font-size: 1.8rem;
   margin-right: 1rem;
@@ -486,7 +437,7 @@ a {
   border-bottom-right-radius: 16px;
 }
 .strong {
-  font-family: JosefinSans-Light;
+  font-family: Montserrat-Light;
 }
 .formulario {
   background: none;
@@ -548,7 +499,7 @@ a {
   font-size: 2em;
   text-transform: uppercase;
   color: #b40a7f;
-  font-family: "SF-Pro-Display-Medium";
+  font-family: "Montserrat-Medium";
   left: 4rem;
 }
 @media (max-width: 991px) {
@@ -565,11 +516,7 @@ a {
   .btn-pink {
     width: 100%;
   }
-  .bg-conceito {
-    background: url(../assets/background/bg-conceito.jpeg) right center no-repeat;
-    background-size: cover;
-  }
- 
+   
   .bg-familia {
     background-color: #f5f5f2f8;
     background: url(../assets/background/bg-familia.jpeg) top center no-repeat;
@@ -585,7 +532,9 @@ a {
   }
   .bg-topo {
     background: url(../assets/background/bg-topo.jpeg) left center no-repeat;
-    background-size: cover;
+    background-size: cover;    
+    height: 100vh;
+    width: 100vw;
   }
   .bg-black {
     background-color: #000000;
@@ -616,30 +565,27 @@ a {
   .diferencial-text {
     font-size: 1em;  
     color: black;
-    font-family: SF-Pro-Display-Bold;
+    font-family: Montserrat-Bold;
   }
-  .descricao-img {
-     width: max-content;
-  }  
-
+   
   .fotos-text {
     font-size: 1.8em;  
     color: black;
     text-align: center;
-    font-family: JosefinSans-MediumItalic;
+    font-family: Montserrat-Medium;
   }
   .familia-title {
     font-size: 1.5em;  
     color: #b40a7f;
     text-align: center;
     text-transform: uppercase;
-    font-family: SF-Pro-Display-Medium;
+    font-family: Montserrat-Medium;
   }
   .familia-text {
     font-size: 1.25em;  
     color: black;
     text-align: center;
-    font-family: SF-Pro-Display-Regular;
+    font-family: Montserrat-Regular;
   }
   .box-planta {
     background-color: #f0f0f0;
@@ -658,7 +604,7 @@ a {
     text-align: center;
     justify-items: center;
     justify-content: center;
-    font-family: SF-Pro-Display-Medium;
+    font-family: Montserrat-Medium;
     text-transform: uppercase;
   } 
 }
@@ -667,7 +613,7 @@ a {
       font-size: 2em;
       text-transform: uppercase;
       color: #b40a7f;
-      font-family: "SF-Pro-Display-Medium";
+      font-family: "Montserrat-Medium";
     }
 }
 

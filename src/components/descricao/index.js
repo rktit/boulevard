@@ -5,6 +5,7 @@ import '@splidejs/splide/dist/css/themes/splide-sea-green.min.css'
 import { Fade } from 'react-reveal'
 import utils from '../../utils'
 
+import conceito from '../../assets/background/conceito.jpeg'
 import descricao from '../../assets/file/descricao.png'
 import foto1 from '../../assets/static/descricao1.png'
 import foto2 from '../../assets/static/descricao2.png'
@@ -70,31 +71,32 @@ export default function Page(props) {
     <ScrollableAnchor id={'descrição'}>
       <div className="bg-white">
         <Fade left duration={2000}>
-          <div className="flex flex-col md:flex-row">
-            <div className="flex pl-12 pr-12 md:pr-0">
-              <div className="descricao-img">
+          <div className="flex flex-col md:flex-row mx-6">
+            <div className="flex py-4">
+              <div className="absolute descricao1-img">
                 <img src={foto1} />
               </div>
-              <div className="descricao-img">
-                <img src={foto2} className="pt-52" />
+              <div className="absolute descricao2-img">
+                <img src={foto2} />
               </div>
-              <div className="descricao-img">
+              <div className="absolute descricao3-img">
                 <img src={foto3} />
               </div>
 
             </div>
-            <div className="flex flex-wrap py-12 pl-36 pr-12">
-              <img src={descricao} className="w-2/3	" />
+            <div className="descricao-box">
+              <img src={descricao} className="pt-20"/>
 
-              <div className="pt-12">
+              <div className="pt-12 pb-10 px-4">
               <button
                 onClick={() => window.modalModal()}
-                  className="w-auto flex justify-center py-4 px-40 mt-2 border border-transparent font-medium rounded-lg text-white button-cadastro">
+                  className="w-auto flex justify-center py-4 px-28 mt-2 border border-transparent font-medium rounded-lg text-white button-cadastro">
                   Fale com um corretor
                 </button>
               </div>
             </div>
           </div>
+          <img src={conceito} className="w-auto" />
 
         </Fade>
 

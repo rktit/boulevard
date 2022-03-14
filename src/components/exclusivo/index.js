@@ -14,7 +14,7 @@ export default function Page(props) {
                         <div className="justify-center px-1 md:px-0">
                             <img src={exclusivo} className="w-auto md:w-4/5 pl-2 md:pl-52" />
                         </div>
-                        <div className="font-regular md:font-big justify-items-center items-center px-4 md:px-0 pt-4 md:pt-0">
+                        <div className="font-regular md:font-big justify-items-center items-center px-4 md:px-0 pt-4">
                             <strong>Comodidade em serviços Pay Per Use (Pague quando usar).</strong>
                         </div>
                         <div className="font-medium md:font-regular pt-4 text-center px-8 md:px-0">

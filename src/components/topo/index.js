@@ -35,10 +35,10 @@ export default function Page(props) {
 
   return (
     <ScrollableAnchor id={'home'}>
-      <div className="bg-topo py-2 md:py-3 px-4 md:px-1">
+      <div className="bg-topo py-2">
         <Fade>
-          <div className="topo-text pt-2 md:pt-0">
-            Lançamento Boulevard de Rosé</div>
+          <div className="flex topo-text">
+            Aprecie a vida!</div>
           <div className="flex-col pl-12 md:pl-52 pt-24 md:pt-36 pb-24 px-10 md:px-0">
             <img
               src={boulevard}
@@ -97,7 +97,7 @@ export default function Page(props) {
               {/* </form> */}
             </div>
 
-            <div className="fixed right-10 md:right-2 bottom-24 md:bottom-18 whats-message">
+            <div className="fixed right-10 md:right-2 bottom-24 md:bottom-12 whats-message">
               <a
                 target="_blank"
                 href="https://api.whatsapp.com/send?phone=5519991255659"

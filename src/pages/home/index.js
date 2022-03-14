@@ -6,7 +6,6 @@ import {
 
   Topo,
   Descrição,
-  Conceito,
   Fotos,
   Plantas,
   Diferencial,
@@ -24,7 +23,6 @@ const Home_Page = () => {
 
       <Topo />
       <Descrição />
-      <Conceito />
       <Fotos />
       <Plantas />
       {/* <Diferencial /> */}
