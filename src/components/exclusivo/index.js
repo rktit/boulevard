@@ -11,7 +11,7 @@ export default function Page(props) {
                 <Fade duration={2000}>
                     <div className="w-auto md:w-full flex flex-col py-8 md:py-16 px-4 md:px-0 items-center">
 
-                        <div className="justify-center px-1 md:px-0">
+                        <div className="justify-center px-6 md:px-0">
                             <img src={exclusivo} className="w-auto" />
                         </div>
                         <div className="exclusivo-title justify-items-center items-center px-4 md:px-0 pt-4">

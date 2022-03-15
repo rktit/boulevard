@@ -3,7 +3,6 @@ import { Fade } from 'react-reveal'
 import ScrollableAnchor, { goToAnchor } from 'react-scrollable-anchor'
 
 import mapa from '../../assets/static/mapa.jpeg'
-import local from '../../assets/icon/local.png'
 import visite from '../../assets/file/visite-local.png'
 import previlegiada from '../../assets/file/local.png'
 
@@ -16,7 +15,7 @@ export default function Page(props) {
           <div className="w-full flex flex-col">
           <div className="pl-0 md:pl-64 pt-10 md:pt-20">
             <img src={previlegiada} className="w-auto md:w-2/5 px-10 md:px-0" />
-              <img src={mapa} className="w-auto md:w-4/4 pr-4 md:pr-72 px-4 md:px-0" />
+              <img src={mapa} className="w-auto md:w-4/4 pr-10 md:pr-72 px-10 md:px-0" />
             </div>
             <div className="w-full">
               <div className="flex flex-grid items-center justify-center">
@@ -37,7 +36,7 @@ export default function Page(props) {
                 <a
                   target="_blank"
                   href="https://api.whatsapp.com/send?phone=5519991255659" >
-                  <img src={visite} className="w-96 md:w-full" />
+                  <img src={visite} className="w-auto md:w-full px-10 md:px-0" />
                   <div className="absolute mapa-visite">
                     visite o decorado no local
                   </div>

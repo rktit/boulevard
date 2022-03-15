@@ -37,21 +37,21 @@ export default function Page(props) {
     <ScrollableAnchor id={'home'}>
       <div className="bg-topo">
         <Fade>
-          <div className="absolute flex topo-text">
+          <div className="absolute flex topo-text pt-1">
             Aprecie a vida!</div>
           <div className="flex flex-col">
             <img
               src={boulevard}
-              className="ml-36"
+              className="ml-0 sm:ml-14 md:ml-36 px-6 md:px-0"
               width="400 sm:300"
             />
-          <div className="ml-4 md:ml-32">
+          <div className="ml-10 md:ml-32">
 
-            <div className="flex">
-              <img src={topo} className="w-auto" />
+            <div className="flex pt-14 sm:pt-4 md:pt-0">
+              <img src={topo} className="w-auto pr-8 md:pr-0" />
             </div>
 
-            <div className="flex justify-center md:justify-start mt-0 md:mt-12  pr-12 md:pr-40 mb-10 md:mb-32 pl-6 md:pl-0">
+            <div className="flex justify-center md:justify-start mt-0 md:mt-12 pr-14 md:pr-40 mb-10 md:mb-32 pl-6 md:pl-0">
 
               <button
                 onClick={() => window.modalModal()}

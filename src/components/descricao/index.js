@@ -66,6 +66,7 @@ export default function Page(props) {
                 </button>
               </div>
             </div>
+            <img src={conceito} className="w-auto" />
     </div>
     :
     <ScrollableAnchor id={'descrição'}>

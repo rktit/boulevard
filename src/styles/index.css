@@ -158,10 +158,6 @@ a {
   background: url(../assets/background/bg-fotos.jpeg) bottom center no-repeat;
   background-size: cover;
 }
-.bg-mapa {
-  background: url(../assets/background/bg-mapa.jpeg) center no-repeat;
-  background-size: cover;
-}
 .bg-black {
   background-color: #000000;
 }
@@ -179,8 +175,8 @@ a {
 .bg-topo {
   background: url(../assets/background/bg-topo.jpeg) center center no-repeat;
   background-size: cover; 
-  padding-top: 140px;
-  padding-bottom: 80px;
+  padding-top: 145px;
+  padding-bottom: 85px;
 }
 .topo-text {
   font-size: 1.5em;  
@@ -287,12 +283,6 @@ padding-top: 50px;
 .planta-attention {
   font-size: 1.4em;
 }
-.mapa {
-  background: url(../assets/static/mapa.jpeg) center center no-repeat;
-  background-size: contain; 
-  margin-top: 120px;
-  margin-bottom: 220px;
-}
 
 .mapa-visite {
   font-size: 2em;
@@ -301,7 +291,7 @@ padding-top: 50px;
   text-transform: uppercase;
   font-family: "Montserrat-Bold";
   bottom: 120px;
-  right: 485px;
+  right: 530px;
 }
 .mapa-whats {
   font-size: 1.8em;
@@ -309,7 +299,7 @@ padding-top: 50px;
   color: white;
   font-family: "Montserrat-Bold";
   bottom: 80px;
-  right: 400px;
+  right: 440px;
 }
 .mapa-title {
   font-size: 4em;
@@ -534,7 +524,54 @@ padding-top: 50px;
   .bg-topo {
     background: url(../assets/background/bg-topo.jpeg) bottom left no-repeat;
     background-size: cover; 
-    height: auto;   
+    height: 730px;  
+    left: 640px; 
+  }
+  .topo-text {
+    position: relative;
+    font-size: 1em;  
+    color: white;
+    text-align: center;
+    align-content: center;
+    font-family: Montserrat-Medium;
+    text-transform: uppercase;
+    top: -130px;
+    left: -20px
+  } 
+  .mapa-visite {
+    font-size: 1.5em;
+    line-height: 120%;
+    color: white;
+    text-transform: uppercase;
+    font-family: "Montserrat-Bold";
+    bottom: 70px;
+    right: 165px;
+  }
+  .mapa-whats {
+    font-size: 1.25em;
+    line-height: 120%;
+    color: white;
+    font-family: "Montserrat-Bold";
+    bottom: 40px;
+    right: 120px;
+  }
+  .mapa-title {
+    font-size: 4em;
+    text-transform: uppercase;
+    color: white;
+    font-family: "Montserrat-Medium";
+  }
+  .mapa-desc {
+    font-size: 1.8em;
+  }
+  .mapa-phone {
+    font-size: 2.4em;
+  }
+  .mapa-address {
+    font-size: 1.8em;
+    line-height: 100%;
+    color: black;
+    font-family: "Montserrat-Bold";
   }
 }
 @media (max-width: 575px) {
@@ -646,21 +683,21 @@ padding-top: 50px;
       color: white;
       text-transform: uppercase;
       font-family: "Montserrat-Bold";
-      bottom: 50px;
+      bottom: 45px;
       right: 60px;
     }
     .mapa-whats {
-      font-size: 0.8em;
+      font-size: 0.75em;
       line-height: 120%;
       color: white;
       font-family: "Montserrat-Bold";
       bottom: 30px;
-      right: 35px;
+      right: 45px;
     }
     .bg-topo {
       background: url(../assets/background/bg-topo.jpeg) left center no-repeat;
       background-size: cover;    
-      height: 100vh;
+      height: 120vh;
     }
     .fotos-text {
       font-size: 1.5em;  
@@ -706,6 +743,16 @@ padding-top: 50px;
       text-align: center;
       font-family: Montserrat-Light;
     }
+    .topo-text {
+      font-size: 1em;  
+      color: white;
+      text-align: center;
+      justify-items: center;
+      justify-content: center;
+      font-family: Montserrat-Medium;
+      text-transform: uppercase;
+      left: 5px;
+    } 
 }
 
 /* SCROLLBAR */
