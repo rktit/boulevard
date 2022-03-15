@@ -35,58 +35,23 @@ export default function Page(props) {
 
   return (
     <ScrollableAnchor id={'home'}>
-      <div className="bg-topo py-2">
+      <div className="bg-topo">
         <Fade>
-          <div className="flex topo-text">
+          <div className="absolute flex topo-text">
             Aprecie a vida!</div>
-          <div className="flex-col pl-12 md:pl-52 pt-24 md:pt-36 pb-24 px-10 md:px-0">
+          <div className="flex flex-col">
             <img
               src={boulevard}
-              width="300"
+              className="ml-36"
+              width="400 sm:300"
             />
-          </div>
-          <div className="ml-6 md:ml-32">
+          <div className="ml-4 md:ml-32">
 
-            <div className="flex ">
-              <img src={topo} className="w-auto md:w-2/5 pb-6" />
+            <div className="flex">
+              <img src={topo} className="w-auto" />
             </div>
 
-            <div className="flex justify-center md:justify-start mt-12  pr-12 md:pr-40 mb-32">
-              {/* <form action="form-page" method="post">
-                <label for="name" className="font-black family-bold ml-2">
-                  Nome:*
-                </label>
-                <br />
-                <input
-                  type="text"
-                  id="name"
-                  name="user_name"
-                  className="formulario family-bold pl-4 py-2 mb-3 w-full"
-                  placeholder="Digite seu nome"
-                />
-
-                <label for="tel" className="font-black family-bold ml-2">
-                  Whatsapp:*
-                </label>
-                <br />
-                <input
-                  id="tel"
-                  name="user_message"
-                  className="formulario family-bold pl-4 py-2 mb-3 w-full"
-                  placeholder="(xx)xxxxx-xxxx"
-                />
-                <br />
-                <label for="mail" className="font-black family-bold ml-2">
-                  E-mail:*
-                </label>
-                <br />
-                <input
-                  type="email"
-                  id="mail"
-                  name="user_email"
-                  className="formulario family-bold pl-4 py-2 mb-3 w-full"
-                  placeholder="Digite seu email"
-                /> */}
+            <div className="flex justify-center md:justify-start mt-0 md:mt-12  pr-12 md:pr-40 mb-10 md:mb-32 pl-6 md:pl-0">
 
               <button
                 onClick={() => window.modalModal()}
@@ -94,10 +59,10 @@ export default function Page(props) {
               >
                 Cadastre-se
               </button>
-              {/* </form> */}
             </div>
+              </div>
 
-            <div className="fixed right-10 md:right-2 bottom-24 md:bottom-12 whats-message">
+            <div className="fixed right-6 md:right-2 bottom-10 md:bottom-8 whats-message">
               <a
                 target="_blank"
                 href="https://api.whatsapp.com/send?phone=5519991255659"

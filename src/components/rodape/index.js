@@ -25,7 +25,7 @@ export default function Page(props) {
           </div>
         </div>
 
-        <div className="pl-12 md:pl-0 pb-10 md:pb-0 m-0 md:m-8 mr-10 md:mr-52 pr-10 md:pr-64 pt-0 md:pt-20">
+        <div className="pl-12 md:pl-0 pb-10 md:pb-0 m-0 md:m-8 mr-10 md:mr-52 pr-10 md:pr-64 pt-0 md:pt-10">
           <div className="flex flex-row ">
             <a className="w-8 md:w-10 pl-2 md:pl-0 "
               href="https://www.facebook.com/capremconstrutora/"
@@ -44,7 +44,7 @@ export default function Page(props) {
               @capremconstrutora</div>
           </div>
 
-          <div className="font-medium md:font-regular family-medium tracking-widest ml-2 md:ml-0 mb-0 md:mb-14">
+          <div className="font-medium md:font-regular family-medium tracking-widest ml-2 md:ml-0 mb-0 md:mb-6">
             <a href="https://www.caprem.com.br/"
               target="_blank"
               rel="noreferrer">www.caprem.com.br
@@ -52,12 +52,14 @@ export default function Page(props) {
           </div>
         </div>
       </div>
-      <div className="font-medium text-center px-6 md:px-0">
+      <div className="px-4 py-4">
+      <div className="rodape-title">
         Todas as imagens utilizadas nesta página são meramente ilustrativas. Possíveis alterações de projeto <br />
         serão executadas de acordo com o Memorial Descritivo do empreendimento.
       </div>
-      <div className="family-light font-small mt-10 md:mt-10 pb-6 text-center px-4 md:px-0">
+      <div className="rodape-text pt-4">
         Incorporação registrada sob no R.1 da matrícula 72.731 do Oficial de Registro de Imóveis e Anexos de Santa Bárbara D’Oeste – Estado de São Paulo, nos termos da Lei 4.591/64
+      </div>      
       </div>
     </div>
   )

@@ -58,7 +58,7 @@ export default function Page(props) {
       <div className="flex flex-wrap px-10 py-10 place-content-center	">
               <img src={descricao} className="w-auto	" />
 
-              <div className="pt-12 pl-6">
+              <div className="pt-12">
               <button
                 onClick={() => window.modalModal()}
                   className="w-auto flex justify-center py-4 px-10 mt-2 border border-transparent font-medium rounded-lg text-white button-cadastro">
@@ -87,10 +87,10 @@ export default function Page(props) {
             <div className="descricao-box">
               <img src={descricao} className="pt-20"/>
 
-              <div className="pt-12 pb-10 px-4">
+              <div className="pt-12 pb-14 px-4">
               <button
                 onClick={() => window.modalModal()}
-                  className="w-auto flex justify-center py-4 px-28 mt-2 border border-transparent font-medium rounded-lg text-white button-cadastro">
+                  className="w-96 md:w-auto flex justify-center py-4 px-28 mt-2 border border-transparent font-medium rounded-lg text-white button-cadastro">
                   Fale com um corretor
                 </button>
               </div>

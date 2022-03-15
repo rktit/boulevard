@@ -72,7 +72,7 @@ export default function Page(props) {
             <div className="justify-center">
               <img src={diferencial} className="w-auto px-6 md:px-0" />
             </div>
-            <div className="diferencial-content mx-0 md:mx-20 pt-10 md:pt-24">
+            <div className="diferencial-content mx-0 md:mx-24 pt-10 md:pt-24">
 
               <div className="diferencial-item">
                 <img src={aquecimento} className="diferencial-box" />

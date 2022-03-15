@@ -12,21 +12,21 @@ export default function Page(props) {
                     <div className="w-auto md:w-full flex flex-col py-8 md:py-16 px-4 md:px-0 items-center">
 
                         <div className="justify-center px-1 md:px-0">
-                            <img src={exclusivo} className="w-auto md:w-4/5 pl-2 md:pl-52" />
+                            <img src={exclusivo} className="w-auto" />
                         </div>
-                        <div className="font-regular md:font-big justify-items-center items-center px-4 md:px-0 pt-4">
+                        <div className="exclusivo-title justify-items-center items-center px-4 md:px-0 pt-4">
                             <strong>Comodidade em serviços Pay Per Use (Pague quando usar).</strong>
                         </div>
-                        <div className="font-medium md:font-regular pt-4 text-center px-8 md:px-0">
+                        <div className="exclusivo-text text-center px-4 md:px-0 pt-4">
                             Sistema de serviços para facilitar o seu dia a dia, como: manutenção,<br />
                             limpeza, pet care, motorista, arquitetura, entre outros. Pague apenas pelo o que utilizar.
                         </div>
 
-                        <div className="w-full flex justify-center mt-10 px-20 md:px-0">
-                        <button
-                onClick={() => window.modalModal()}
+                        <div className="w-full flex justify-center mt-6 px-20 md:px-0">
+                            <button
+                                onClick={() => window.modalModal()}
                                 href="https://api.whatsapp.com/send?phone=5519974139043"
-                                className="w-full md:w-1/4 flex justify-center py-3 px-4 mt-4 border border-transparent text-sm font-medium rounded-lg text-white button-cadastro"
+                                className="w-full md:w-1/4 flex justify-center py-3 px-12 md:px-4 mt-4 border border-transparent text-sm font-medium rounded-lg text-white button-cadastro"
                             > Saiba Mais
                             </button>
                         </div>
