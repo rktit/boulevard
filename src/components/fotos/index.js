@@ -166,70 +166,138 @@ export default function Page(props) {
             <div className="flex-col px-24">
 
               <div className="flex">
-                <img src={foto1} className="w-full" />
-                <img src={foto2} className="w-full px-1" />
-                <img src={foto3} className="w-full" />
+                <div className='flex-auto'>
+                  <img src={foto1} className="w-full" />
+                </div>
+                <div className='flex-auto'>
+                  <img src={foto2} className="w-full px-1" />
+                </div>
+                <div className='flex-auto'>
+                  <img src={foto3} className="w-full" />
+                </div>
               </div>
 
               <div className="flex pt-1">
-                <img src={foto4} className="w-full" />
-                <img src={foto5} className="w-full px-1" />
-                <img src={foto6} className="w-full" />
+                <div className='flex-auto'>
+                  <img src={foto4} className="w-full" />
+                </div>
+                <div className='flex-auto'>
+                  <img src={foto5} className="w-full px-1" />
+                </div>
+                <div className='flex-auto'>
+                  <img src={foto6} className="w-full" />
+                </div>
               </div>
 
               <div className="flex pt-1">
-                <img src={foto7} className="w-full" />
-                <img src={foto8} className="w-full px-1" />
-                <img src={foto9} className="w-full pr-1" />
-                <img src={foto10} className="w-full" />
+                <div className='flex-auto'>
+                  <img src={foto7} className="w-full" />
+                </div>
+                <div className='flex-auto'>
+                  <img src={foto8} className="w-full px-1" />
+                </div>
+                <div className='flex-auto'>
+                  <img src={foto9} className="w-full pr-1" />
+                </div>
+                <div className='flex-auto'>
+                  <img src={foto10} className="w-full" />
+                </div>
               </div>
 
               <div className="flex pt-1">
-                <img src={foto11} className="w-full" />
-                <img src={foto12} className="w-full px-1" />
-                <img src={foto13} className="w-full" />
+                <div className='flex-auto'>
+                  <img src={foto11} className="w-full" />
+                </div>
+                <div className='flex-auto'>
+                  <img src={foto12} className="w-full px-1" />
+                </div>
+                <div className='flex-auto'>
+                  <img src={foto13} className="w-full" />
+                </div>
               </div>
 
               <div className="flex pt-1">
-                <img src={foto14} className="w-full pr-1" />
-                <img src={foto15} className="w-full" />
+                <div className='flex-auto'>
+                  <img src={foto14} className="w-full pr-1" />
+                </div>
+                <div className='flex-auto'>
+                  <img src={foto15} className="w-full" />
+                </div>
               </div>
 
               <div className="flex pt-1">
-                <img src={foto16} className="w-full" />
-                <img src={foto17} className="w-full px-1" />
-                <img src={foto017} className="w-full" />
+                <div className='flex-auto'>
+                  <img src={foto16} className="w-full" />
+                </div>
+                <div className='flex-auto'>
+                  <img src={foto17} className="w-full px-1" />
+                </div>
+                <div className='flex-auto'>
+                  <img src={foto017} className="w-full" />
+                </div>
               </div>
 
               <div className="flex pt-1">
-                <img src={foto18} className="w-full" />
-                <img src={foto19} className="w-full px-1" />
-                <img src={foto20} className="w-full pr-1" />
-                <img src={foto21} className="w-full" />
+                <div className='flex-auto'>
+                  <img src={foto18} className="w-full" />
+                </div>
+                <div className='flex-auto'>
+                  <img src={foto19} className="w-full px-1" />
+                </div>
+                <div className='flex-auto'>
+                  <img src={foto20} className="w-full pr-1" />
+                </div>
+                <div className='flex-auto'>
+                  <img src={foto21} className="w-full" />
+                </div>
               </div>
 
               <div className="flex pt-1">
-                <img src={foto22} className="w-full" />
-                <img src={foto23} className="w-full px-1" />
-                <img src={foto24} className="w-full" />
+                <div className='flex-auto'>
+                  <img src={foto22} className="w-full" />
+                </div>
+                <div className='flex-auto'>
+                  <img src={foto23} className="w-full px-1" />
+                </div>
+                <div className='flex-auto'>
+                  <img src={foto24} className="w-full" />
+                </div>
               </div>
 
               <div className="flex pt-1">
-                <img src={foto25} className="w-full" />
-                <img src={foto26} className="w-full px-1" />
-                <img src={foto27} className="w-full" />
+                <div className='flex-auto'>
+                  <img src={foto25} className="w-full" />
+                </div>
+                <div className='flex-auto'>
+                  <img src={foto26} className="w-full px-1" />
+                </div>
+                <div className='flex-auto'>
+                  <img src={foto27} className="w-full" />
+                </div>
               </div>
 
               <div className="flex pt-1">
-                <img src={foto28} className="w-full" />
-                <img src={foto29} className="w-full px-1" />
-                <img src={foto30} className="w-full" />
+                <div className='flex-auto'>
+                  <img src={foto28} className="w-full" />
+                </div>
+                <div className='flex-auto'>
+                  <img src={foto29} className="w-full px-1" />
+                </div>
+                <div className='flex-auto'>
+                  <img src={foto30} className="w-full" />
+                </div>
               </div>
 
               <div className="flex pt-1">
-                <img src={foto31} className="w-full" />
-                <img src={foto32} className="w-full px-1" />
-                <img src={foto33} className="w-full" />
+                <div className='flex-auto'>
+                  <img src={foto31} className="w-full" />
+                </div>
+                <div className='flex-auto'>
+                  <img src={foto32} className="w-full px-1" />
+                </div>
+                <div className='flex-auto'>
+                  <img src={foto33} className="w-full" />
+                </div>
               </div>
             </div>
           </div>
