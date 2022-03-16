@@ -193,12 +193,12 @@ a {
   width: 440px;
 }  
 .descricao2-img {
- width: 800px;
+ /* width: 800px; */
  padding-left: 374px;
  padding-top: 250px;
 } 
 .descricao3-img {
-width: 1000px;
+/* width: 1000px; */
 padding-left: 678px;
 padding-top: 50px;
 }

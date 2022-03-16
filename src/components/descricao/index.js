@@ -10,6 +10,7 @@ import descricao from '../../assets/file/descricao.png'
 import foto1 from '../../assets/static/descricao1.png'
 import foto2 from '../../assets/static/descricao2.png'
 import foto3 from '../../assets/static/descricao3.png'
+import foto4 from '../../assets/static/descricaoTodas.png'
 
 
 export default function Page(props) {
@@ -57,7 +58,6 @@ export default function Page(props) {
       </Fade>
       <div className="flex flex-wrap px-10 py-10 place-content-center	">
               <img src={descricao} className="w-auto	" />
-
               <div className="pt-12">
               <button
                 onClick={() => window.modalModal()}
@@ -72,20 +72,13 @@ export default function Page(props) {
     <ScrollableAnchor id={'descrição'}>
       <div className="bg-white">
         <Fade left duration={2000}>
-          <div className="flex flex-col md:flex-row mx-6">
-            <div className="flex py-4">
-              <div className="absolute descricao1-img">
-                <img src={foto1} />
+          <div className="flex flex-row md:flex-row mx-6">
+            <div className="flex-auto w-3/4">
+              <div className="flex-auto w-full">
+                <img src={foto4} />
               </div>
-              <div className="absolute descricao2-img">
-                <img src={foto2} />
-              </div>
-              <div className="absolute descricao3-img">
-                <img src={foto3} />
-              </div>
-
             </div>
-            <div className="descricao-box">
+            <div className="flex-auto w-1/4 ">
               <img src={descricao} className="pt-20"/>
 
               <div className="pt-12 pb-14 px-4">
@@ -98,10 +91,7 @@ export default function Page(props) {
             </div>
           </div>
           <img src={conceito} className="w-auto" />
-
         </Fade>
-
-
       </div>
     </ScrollableAnchor>
   )
