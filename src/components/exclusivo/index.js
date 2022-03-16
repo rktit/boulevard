@@ -26,7 +26,7 @@ export default function Page(props) {
                             <button
                                 onClick={() => window.modalModal()}
                                 href="https://api.whatsapp.com/send?phone=5519974139043"
-                                className="w-full md:w-1/4 flex justify-center py-3 px-12 md:px-4 mt-4 border border-transparent text-sm font-medium rounded-lg text-white button-cadastro"
+                                className="w-auto md:w-1/4 flex justify-center py-3 px-36 md:px-12 md:px-4 mt-4 border border-transparent text-sm font-medium rounded-lg text-white button-cadastro"
                             > Saiba Mais
                             </button>
                         </div>

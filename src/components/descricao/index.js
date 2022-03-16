@@ -61,7 +61,7 @@ export default function Page(props) {
               <div className="pt-12">
               <button
                 onClick={() => window.modalModal()}
-                  className="w-auto flex justify-center py-4 px-10 mt-2 border border-transparent font-medium rounded-lg text-white button-cadastro">
+                  className="w-auto flex justify-center py-3 px-10 sm:px-20 mt-2 border border-transparent font-medium rounded-lg text-white button-cadastro">
                   Fale com um corretor
                 </button>
               </div>
@@ -73,18 +73,18 @@ export default function Page(props) {
       <div className="bg-white">
         <Fade left duration={2000}>
           <div className="flex flex-row md:flex-row mx-6">
-            <div className="flex-auto w-3/4">
+            <div className="flex-auto w-3/4 px-12 pb-4">
               <div className="flex-auto w-full">
                 <img src={foto4} />
               </div>
             </div>
-            <div className="flex-auto w-1/4 ">
+            <div className="flex-auto w-1/4  pr-4">
               <img src={descricao} className="pt-20"/>
 
               <div className="pt-12 pb-14 px-4">
               <button
                 onClick={() => window.modalModal()}
-                  className="w-96 md:w-auto flex justify-center py-4 px-28 mt-2 border border-transparent font-medium rounded-lg text-white button-cadastro">
+                  className="w-96 md:w-auto flex justify-center py-4 sm:px-12 px-28 mt-2 border border-transparent font-medium rounded-lg text-white button-cadastro">
                   Fale com um corretor
                 </button>
               </div>

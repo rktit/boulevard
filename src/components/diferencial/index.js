@@ -83,7 +83,7 @@ export default function Page(props) {
 
               <div className="diferencial-item">
                 <img src={usb} className="diferencial-box pt-4 md:pt-0" />
-                <div className="flex diferencial-text px-0 md:px-20">Pontos USB
+                <div className="flex diferencial-text px-0 md:px-10">Pontos USB
                 </div>
               </div>
 
@@ -95,13 +95,13 @@ export default function Page(props) {
 
               <div className="diferencial-item">
                 <img src={arCondicionado} className="diferencial-box pt-4 md:pt-0" />
-                <div className="flex diferencial-text px-0 md:px-20">Pontos de Ar-Condicionado
+                <div className="flex diferencial-text px-0 md:px-10">Pontos de Ar-Condicionado
                 </div>
               </div>
 
               <div className="diferencial-item">
                 <img src={elevador} className="diferencial-box pt-4 md:pt-0" />
-                <div className="flex diferencial-text px-0 md:px-20">2 Elevadores por Torre
+                <div className="flex diferencial-text px-0 md:px-10">2 Elevadores por Torre
                 </div>
               </div>
             </div>
