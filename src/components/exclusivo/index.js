@@ -7,9 +7,9 @@ import exclusivo from '../../assets/file/exclusivo.png'
 export default function Page(props) {
     return (
         <ScrollableAnchor id={'mapa'}>
-            <div className="flex bg-exclusivo">
+            <div className="flex-auto bg-exclusivo">
                 <Fade duration={2000}>
-                    <div className="w-auto md:w-full flex flex-col py-8 md:py-16 px-4 md:px-0 items-center">
+                    <div className="w-auto md:w-full flex flex-col py-8 md:py-16 items-center">
 
                         <div className="justify-center px-6 md:px-0">
                             <img src={exclusivo} className="w-auto" />
@@ -26,7 +26,7 @@ export default function Page(props) {
                             <button
                                 onClick={() => window.modalModal()}
                                 href="https://api.whatsapp.com/send?phone=5519974139043"
-                                className="w-auto md:w-1/4 flex justify-center py-3 px-36 md:px-12 md:px-4 mt-4 border border-transparent text-sm font-medium rounded-lg text-white button-cadastro"
+                                className="w-auto md:w-1/4 flex justify-center py-3 px-20 md:px-12 md:px-4 mt-4 border border-transparent text-sm font-medium rounded-lg text-white button-cadastro"
                             > Saiba Mais
                             </button>
                         </div>
