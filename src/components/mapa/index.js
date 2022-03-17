@@ -37,10 +37,10 @@ export default function Page(props) {
                   target="_blank"
                   href="https://api.whatsapp.com/send?phone=5519991255659" >
                   <img src={visite} className="w-auto md:w-full px-10 md:px-0" />
-                  <div className="absolute mapa-visite pl-20 sm:pl-44 md:pl-52">
+                  <div className="absolute mapa-visite">
                     visite o decorado no local
                   </div>
-                  <div className="absolute mapa-whats pl-16 sm:pl-32 md:pl-32">
+                  <div className="absolute mapa-whats">
                     Agende sua visita pelo Whatspp: (19) 99125.5659
                   </div>
                 </a>

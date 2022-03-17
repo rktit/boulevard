@@ -291,6 +291,7 @@ padding-top: 50px;
   text-transform: uppercase;
   font-family: "Montserrat-Bold";
   bottom: 120px;
+  left: 540px;
 }
 .mapa-whats {
   font-size: 1.8em;
@@ -298,6 +299,7 @@ padding-top: 50px;
   color: white;
   font-family: "Montserrat-Bold";
   bottom: 80px;
+  left: 460px;
 }
 .mapa-title {
   font-size: 4em;
@@ -508,13 +510,23 @@ padding-top: 50px;
 
 
 @media (max-width: 1400px) {
-}
-.mapa-title {
+.mapa-visite {
   font-size: 2em;
+  line-height: 120%;
+  color: white;
   text-transform: uppercase;
-  color: #b40a7f;
-  font-family: "Montserrat-Medium";
-  left: 4rem;
+  font-family: "Montserrat-Bold";
+  bottom: 120px;
+  left: 420px;
+}
+.mapa-whats {
+  font-size: 1.8em;
+  line-height: 120%;
+  color: white;
+  font-family: "Montserrat-Bold";
+  bottom: 80px;
+  left: 340px;
+}
 }
 @media (max-width: 991px) {
 }
@@ -537,19 +549,21 @@ padding-top: 50px;
     left: -20px
   } 
   .mapa-visite {
-    font-size: 1.5em;
+    font-size: 1.8em;
     line-height: 120%;
     color: white;
     text-transform: uppercase;
     font-family: "Montserrat-Bold";
-    bottom: 70px;
+    bottom: 75px;
+    left: 160px;
   }
   .mapa-whats {
-    font-size: 1.25em;
+    font-size: 1.5em;
     line-height: 120%;
     color: white;
     font-family: "Montserrat-Bold";
     bottom: 40px;
+    left: 100px;
   }
   .mapa-title {
     font-size: 4em;
@@ -665,6 +679,23 @@ padding-top: 50px;
     font-family: Montserrat-Medium;
     text-transform: uppercase;
   } 
+  .mapa-visite {
+    font-size: 1.5em;
+    line-height: 120%;
+    color: white;
+    text-transform: uppercase;
+    font-family: "Montserrat-Bold";
+    bottom: 60px;
+    left: 100px;
+  }
+  .mapa-whats {
+    font-size: 1.25em;
+    line-height: 120%;
+    color: white;
+    font-family: "Montserrat-Bold";
+    bottom: 35px;
+    left: 50px;
+  }
 }
   @media (max-width: 395px) {
     .mapa-title {
@@ -680,6 +711,7 @@ padding-top: 50px;
       text-transform: uppercase;
       font-family: "Montserrat-Bold";
       bottom: 45px;
+      left: 70px;
     }
     .mapa-whats {
       font-size: 0.75em;
@@ -687,6 +719,7 @@ padding-top: 50px;
       color: white;
       font-family: "Montserrat-Bold";
       bottom: 30px;
+      left: 55px;
     }
     .bg-topo {
       background: url(../assets/background/bg-topo.jpeg) left center no-repeat;
