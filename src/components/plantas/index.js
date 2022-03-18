@@ -5,13 +5,13 @@ import { Diferencial } from '../'
 
 import plantas from '../../assets/file/Plantas.png'
 
-import planta68 from '../../assets/static/planta68.jpeg'
-import planta82 from '../../assets/static/planta82.jpeg'
-import planta82Sala from '../../assets/static/planta82Sala.jpeg'
-import duplexAB1 from '../../assets/static/duplexAB1.jpeg'
-import duplexAB2 from '../../assets/static/duplexAB2.jpeg'
-import duplexC1 from '../../assets/static/duplexC1.jpeg'
-import duplexC2 from '../../assets/static/duplexC2.jpeg'
+import planta68 from '../../assets/static/planta_68.png'
+import planta82 from '../../assets/static/planta_82.png'
+import planta82Sala from '../../assets/static/planta_82_sala.png'
+import duplexAB1 from '../../assets/static/duplex_AB1.png'
+import duplexAB2 from '../../assets/static/duplex_AB2.png'
+import duplexC1 from '../../assets/static/duplex_C1.png'
+import duplexC2 from '../../assets/static/duplex_C2.png'
 
 import { Splide, SplideSlide } from '@splidejs/react-splide'
 import '@splidejs/splide/dist/css/themes/splide-sea-green.min.css'
@@ -36,8 +36,8 @@ export default function Page(props) {
   return (
     isMobile ?
       <div className="bg-familia">
-        <div className="flex flex-col pl-0 pr-10 py-4" >
-          <div className="familia-title pl-0 pt-0">
+        <div className="flex-auto flex-col pr-10 pb-4" >
+          <div className="familia-title">
             <div className="leading-tight pl-10 px-2" >
               A perfeita combinação<br />
               entre <strong>viver</strong> e se <strong>divertir</strong>!
@@ -128,8 +128,8 @@ export default function Page(props) {
                       <div className="px-4 py-4 pt-8 text-center">
                         <div className="button-69 py-7 px-2 justify-center items-center " onClick={() => { moveSlide(0) }} >Planta 69m³</div>
                         <div className="button-82 py-7 px-2 mt-2" onClick={() => { moveSlide(1) }} >Planta 82m³</div>
-                        <div className="button-c py-7 px-2 mt-2" onClick={() => { moveSlide(2) }} >Duplex Torre C</div>
-                        <div className="button-ab py-7 px-2 mt-2" onClick={() => { moveSlide(3) }} >Duplex Torre AB</div>
+                        <div className="button-ab py-7 px-2 mt-2" onClick={() => { moveSlide(2) }} >Duplex Torre AB</div>
+                        <div className="button-c py-7 px-2 mt-2" onClick={() => { moveSlide(3) }} >Duplex Torre C</div>
                       </div>
                     </div>
                   </div>

@@ -13,9 +13,9 @@ export default function Page(props) {
       <div className="flex flex-col">
         <Fade duration={2000}>
           <div className="w-full flex flex-col">
-          <div className="pl-0 md:pl-64 pt-10 md:pt-20">
-            <img src={previlegiada} className="w-auto md:w-2/5 px-10 md:px-0" />
-              <img src={mapa} className="w-auto md:w-4/4 pr-10 md:pr-72 px-10 md:px-0" />
+          <div className="flex-auto justify-center self-center">
+            <img src={previlegiada} className="w-2/3 md:w-auto px-10 md:px-0 pt-14" />
+              <img src={mapa} className="w-auto px-6" />
             </div>
             <div className="w-full">
               <div className="flex flex-grid items-center justify-center">
@@ -24,7 +24,7 @@ export default function Page(props) {
                   target="_blank"
                   href='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3679.4129870368565!2d-47.41770388499601!3d-22.750049938016616!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c89db1ed5dbaa1%3A0xc3901b2acf19fceb!2sResidencial%20Boulevard%20de%20Ros%C3%A9!5e0!3m2!1sen!2sbr!4v1646405277988!5m2!1sen!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy'
                 >
-                  <div className="text-center mapa-address pt-4">
+                  <div className="text-center mapa-address pt-6">
                     Avenida Tiradentes, 457 - Vila Mac Knight
                     <br />
                     Santa Bárbara D'Oeste/SP

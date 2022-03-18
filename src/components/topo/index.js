@@ -37,8 +37,6 @@ export default function Page(props) {
     <ScrollableAnchor id={'home'}>
       <div className="bg-topo">
         <Fade>
-          <div className="absolute flex topo-text pt-0 md:pt-2">
-            Aprecie a vida!</div>
           <div className="flex flex-col">
             <img
               src={boulevard}
