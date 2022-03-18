@@ -291,7 +291,6 @@ padding-top: 50px;
   text-transform: uppercase;
   font-family: "Montserrat-Bold";
   bottom: 120px;
-  left: 740px;
 }
 .mapa-whats {
   font-size: 1.8em;
@@ -299,7 +298,6 @@ padding-top: 50px;
   color: white;
   font-family: "Montserrat-Bold";
   bottom: 80px;
-  left: 625px;
 }
 .mapa-title {
   font-size: 4em;
@@ -510,23 +508,7 @@ padding-top: 50px;
 
 
 @media (max-width: 1560px) {
-.mapa-visite {
-  font-size: 2em;
-  line-height: 120%;
-  color: white;
-  text-transform: uppercase;
-  font-family: "Montserrat-Bold";
-  bottom: 120px;
-  left: 525px;
-}
-.mapa-whats {
-  font-size: 1.8em;
-  line-height: 120%;
-  color: white;
-  font-family: "Montserrat-Bold";
-  bottom: 80px;
-  left: 440px;
-}
+
 }
 @media (max-width: 991px) {
 }
@@ -535,7 +517,6 @@ padding-top: 50px;
     background: url(../assets/background/bg-topo.jpeg) bottom left no-repeat;
     background-size: cover; 
     height: 730px;  
-    left: 640px; 
   }
   .topo-text {
     position: relative;
@@ -546,7 +527,6 @@ padding-top: 50px;
     font-family: Montserrat-Medium;
     text-transform: uppercase;
     top: -130px;
-    left: -20px
   } 
   .mapa-visite {
     font-size: 1.8em;
@@ -555,7 +535,6 @@ padding-top: 50px;
     text-transform: uppercase;
     font-family: "Montserrat-Bold";
     bottom: 75px;
-    left: 160px;
   }
   .mapa-whats {
     font-size: 1.5em;
@@ -563,7 +542,6 @@ padding-top: 50px;
     color: white;
     font-family: "Montserrat-Bold";
     bottom: 40px;
-    left: 100px;
   }
   .mapa-title {
     font-size: 4em;
@@ -680,21 +658,19 @@ padding-top: 50px;
     color: black;
   }
   .mapa-visite {
-    font-size: 1.5em;
+    font-size: 1.25em;
     line-height: 120%;
     color: white;
     text-transform: uppercase;
     font-family: "Montserrat-Bold";
     bottom: 60px;
-    left: 100px;
   }
   .mapa-whats {
-    font-size: 1.25em;
+    font-size: 1em;
     line-height: 120%;
     color: white;
     font-family: "Montserrat-Bold";
     bottom: 35px;
-    left: 50px;
   }
 }
   @media (max-width: 395px) {
