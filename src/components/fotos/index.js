@@ -151,7 +151,7 @@ export default function Page(props) {
 
       :
       <ScrollableAnchor id={'fotos'}>
-        <div className="bg-fotos pt-14 pb-32">
+        <div className="bg-fotos pt-14">
 
           <div className="flex flex-col justify-items-center items-center pb-10">
             <div className="pr-32 md:pr-44 pb-8 md:pb-12">
