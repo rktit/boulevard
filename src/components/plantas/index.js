@@ -22,7 +22,7 @@ export default function Page(props) {
   const ref = useRef();
   const [isMobile, setMobile] = useState(false)
   useEffect(() => {
-    if (window.innerWidth >= 992) {
+    if (window.innerWidth >= 768) {
       setMobile(false)
     } else {
       setMobile(true)
@@ -43,7 +43,7 @@ export default function Page(props) {
   ]
   const renderImg = (el) => {
     return (
-      <SplideSlide className="flex-auto place-content-center">
+      <SplideSlide className="w-full place-content-center">
         <img src={el.planta} className="px-1" />
         <div className="flex items-center justify-center">
           <div className="button flex items-center justify-center mt-6 place-content-center">
