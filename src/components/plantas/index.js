@@ -73,7 +73,7 @@ export default function Page(props) {
         <div className="flex py-8 place-content-center">
           <img src={plantas} className="w-auto justify-center items-center" />
         </div>
-        <div className="flex-auto box-mobile mx-1 justify-center items-center">
+        <div className="box-mobile mx-1 justify-center items-center">
           <div className="justify-center self-center ">
             <Splide
               className="splide-badges col-12"
