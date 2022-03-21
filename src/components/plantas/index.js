@@ -32,6 +32,27 @@ export default function Page(props) {
   const moveSlide = (value) => {
     ref.current.splide.go(value);
   }
+  const arrayFotos = [
+    { planta: planta68, button: 'Planta 69m³' },
+    { planta: planta82, button: 'Planta 82m³' },
+    { planta: planta82Sala, button: 'Planta 82m³' },
+    { planta: duplexAB1, button: 'Duplex Torre AB' },
+    { planta: duplexAB2, button: 'Duplex Torre AB' },
+    { planta: duplexC1, button: 'Duplex Torre C' },
+    { planta: duplexC2, button: 'Duplex Torre C' },
+  ]
+  const renderImg = (el) => {
+    return (
+      <SplideSlide className="flex-auto place-content-center">
+        <img src={el.planta} className="px-1" />
+        <div className="flex items-center justify-center">
+          <div className="button flex items-center justify-center mt-6 place-content-center">
+            {el.button}
+          </div>
+        </div>
+      </SplideSlide>
+    )
+  }
 
   return (
     isMobile ?
@@ -49,53 +70,26 @@ export default function Page(props) {
             <strong>apartamentos de 69 e 82m²</strong>, com plantas flexíveis.
           </div>
         </div>
-        <div className="box-planta flex flex-col row w-auto m-4 md:m-8">
-          <div className="px-12 pt-8">
-            <img src={plantas} className="w-auto px-2 md:px-0" />
-          </div>
-          <div className="flex align-center pb-6">
-            <div className="justify-center">
-              <div className="flex w-auto">
-                <div className="content-center">
-                  <Splide
-                    ref={ref}
-                    className="splide-badges col-12"
-                    options={{
-                      rewind: true,
-                      width: '100%',
-                      height: '100%',
-                      gap: '0rem',
-                      perPage: 1,
-                      pagination: isMobile,
-                      arrows: !isMobile,
-                    }}
-                  >
-                    <SplideSlide className="justify-center items-center" style={{ display: 'flex', alignSelf: 'center' }}>
-                      <img src={planta68} className="md-h-full" />
-                    </SplideSlide>
-                    <SplideSlide className="justify-center items-center" style={{ display: 'flex', alignSelf: 'center' }}>
-                      <img src={planta82} className="md-h-full" />
-                    </SplideSlide>
-                    <SplideSlide className="justify-center items-center" style={{ display: 'flex', alignSelf: 'center' }}>
-                      <img src={planta82Sala} className="md-h-full" />
-                    </SplideSlide>
-                    <SplideSlide className="justify-center items-center" style={{ display: 'flex', alignSelf: 'center' }}>
-                      <img src={duplexAB1} className="md-h-full" />
-                    </SplideSlide>
-                    <SplideSlide className="justify-center items-center" style={{ display: 'flex', alignSelf: 'center' }}>
-                      <img src={duplexAB2} className="md-h-full" />
-                    </SplideSlide>
-                    <SplideSlide className="justify-center items-center" style={{ display: 'flex', alignSelf: 'center' }}>
-                      <img src={duplexC1} className="md-h-full" />
-                    </SplideSlide>
-                    <SplideSlide className="justify-center items-center" style={{ display: 'flex', alignSelf: 'center' }}>
-                      <img src={duplexC2} className="md-h-full" />
-                    </SplideSlide>
+        <div className="flex py-8 place-content-center">
+          <img src={plantas} className="w-auto justify-center items-center" />
+        </div>
+        <div className="flex box-mobile mx-1 justify-center items-center">
+          <div className="justify-center self-center ">
+            <Splide
+              className="splide-badges col-12"
+              options={{
+                rewind: true,
+                width: '100vw',
+                height: 'auto',
+                gap: '0rem',
+                perPage: 1,
+                pagination: false,
+                arrows: true,
+              }}
+            >
+              {arrayFotos.map(el => { return (renderImg(el)) })}
 
-                  </Splide>
-                </div>
-              </div>
-            </div>
+            </Splide>
           </div>
         </div>
         <Diferencial />
@@ -119,22 +113,22 @@ export default function Page(props) {
           </div>
 
           <div className="flex justify-center align-center">
-            <div className="w-full md:w-10/12 justify-center pt-0 md:pt-10 md:pt-64">
-              <div className="box-planta flex flex-col md:flex-row w-auto md:w-4/4 m-4 md:m-8">
-                <div className="d-flex flex-col px-0 md:px-6 py-6">
+            <div className="w-full md:w-10/12 justify-center pt-64">
+              <div className="box-planta flex flex-row w-auto">
+                <div className="d-flex flex-col py-6">
                   <div className='col-12' style={{ display: 'flex', alignItems: 'center', flexDirection: 'column' }}>
-                    <div className="px-0 md:px-12 pt-0 md:pt-10">
+                    <div className="px-12 pt-10">
                       <img src={plantas} className="max-w-max	" /></div>
                     <div className="px-4 py-4 pt-8 text-center">
-                      <div className="button-69 py-7 px-2 justify-center items-center " onClick={() => { moveSlide(0) }} >Planta 69m³</div>
-                      <div className="button-82 py-7 px-2 mt-2" onClick={() => { moveSlide(1) }} >Planta 82m³</div>
-                      <div className="button-ab py-7 px-2 mt-2" onClick={() => { moveSlide(2) }} >Duplex Torre AB</div>
-                      <div className="button-c py-7 px-2 mt-2" onClick={() => { moveSlide(3) }} >Duplex Torre C</div>
+                      <div className="button69 py-7 px-2 justify-center items-center " onClick={() => { moveSlide(0) }} >Planta 69m³</div>
+                      <div className="button82 py-7 px-2 mt-2" onClick={() => { moveSlide(1) }} >Planta 82m³</div>
+                      <div className="buttonAB py-7 px-2 mt-2" onClick={() => { moveSlide(2) }} >Duplex Torre AB</div>
+                      <div className="buttonC py-7 px-2 mt-2" onClick={() => { moveSlide(3) }} >Duplex Torre C</div>
                     </div>
                   </div>
                 </div>
 
-                <div className="flex w-auto pr-8">
+                <div className="flex w-auto pr-8 pt-16">
                   <div className="content-center">
                     <Splide
                       ref={ref}

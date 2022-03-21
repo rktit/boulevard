@@ -321,7 +321,7 @@ padding-top: 50px;
   background: url(../assets/static/mapa.png) center no-repeat;
   width: 100vw;
 }
-.button-69 { 
+.button69 { 
   width: 260px;
   height: 70px;
   border-radius: 0.5rem; 
@@ -331,7 +331,7 @@ padding-top: 50px;
   font-size: 1.2em;
   font-family: "Montserrat-Medium";
 }
-.button-82 { 
+.button82 { 
   width: 260px;
   height: 70px;
   border-radius: 0.5rem; 
@@ -341,7 +341,7 @@ padding-top: 50px;
   font-size: 1.2em;
   font-family: "Montserrat-Medium";
 }
-.button-c { 
+.buttonC { 
   width: 260px;
   height: 70px;
   border-radius: 0.5rem; 
@@ -351,7 +351,7 @@ padding-top: 50px;
   font-size: 1.2em;
   font-family: "Montserrat-Medium";
 }
-.button-ab { 
+.buttonAB { 
   width: 260px;
   height: 70px;
   border-radius: 0.5rem; 
@@ -361,16 +361,17 @@ padding-top: 50px;
   font-size: 1.2em;
   font-family: "Montserrat-Medium";
 }
-.button-69:active {
+
+.button69:active {
   background-color: #bd2d90;
 }
-.button-82:active {
+.button82:active {
   background-color: #a40372;
 }
-.button-c:active {
+.buttonC:active {
   background-color: #a40372;
 }
-.button-ab:active {
+.buttonAB:active {
   background-color: #a40372;
 }
 
@@ -561,6 +562,22 @@ padding-top: 50px;
     color: black;
     font-family: "Montserrat-Bold";
   }
+  .button { 
+    width: 200px;
+    height: 50px;
+    border-radius: 0.5rem; 
+    border-color: #bd2d90;
+    background-color: #bd2d90;
+    color: white;
+    font-size: 1.2em;
+    font-family: "Montserrat-Medium";
+    
+  }
+  .box-mobile {
+    background-color: #ffffff;
+    border-radius: 0.75rem;
+    box-shadow: 0 25px 50px 10px rgb(0 0 0 / 0.25);
+  }
 }
 @media (max-width: 575px) {
   .font-big {
@@ -672,6 +689,21 @@ padding-top: 50px;
     font-family: "Montserrat-Bold";
     bottom: 35px;
   }
+  .button { 
+    width: 200px;
+    height: 50px;
+    border-radius: 0.5rem; 
+    border-color: #bd2d90;
+    background-color: #bd2d90;
+    color: white;
+    font-size: 1.2em;
+    font-family: "Montserrat-Medium";
+  }
+  .box-mobile {
+    background-color: #ffffff;
+    border-radius: 0.75rem;
+    box-shadow: 0 25px 50px 10px rgb(0 0 0 / 0.25);
+  }
 }
   @media (max-width: 395px) {
     .mapa-address {
@@ -762,6 +794,21 @@ padding-top: 50px;
       text-transform: uppercase;
       left: 5px;
     } 
+    .button { 
+      width: 200px;
+      height: 50px;
+      border-radius: 0.5rem; 
+      border-color: #bd2d90;
+      background-color: #bd2d90;
+      color: white;
+      font-size: 1.2em;
+      font-family: "Montserrat-Medium";
+    }
+    .box-mobile {
+      background-color: #ffffff;
+      border-radius: 0.75rem;
+      box-shadow: 0 25px 50px 10px rgb(0 0 0 / 0.25);
+    }
 }
 
 /* SCROLLBAR */
