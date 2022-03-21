@@ -79,8 +79,8 @@ export default function Page(props) {
               className="splide-badges col-12"
               options={{
                 rewind: true,
-                width: '100vw',
-                height: 'auto',
+                width: 'auto',
+                height: '100%',
                 gap: '0rem',
                 perPage: 1,
                 pagination: false,
