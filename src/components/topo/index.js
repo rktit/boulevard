@@ -38,12 +38,14 @@ export default function Page(props) {
     <ScrollableAnchor id={'home'}>
       <div className="bg-topo">
         <Fade>
-          <div className="flex flex-col">
+          <div className=" flex flex-col">
+            <div className="top-img">
             <img
               src={boulevard}
               className="ml-0 sm:ml-14 md:ml-36 px-6 md:px-0"
               width="400 sm:300"
             />
+            </div>
             <div className="ml-10 md:ml-32">
 
               <div className="flex pt-14 sm:pt-4 md:pt-0">

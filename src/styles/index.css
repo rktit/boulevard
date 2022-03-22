@@ -740,6 +740,9 @@ padding-top: 50px;
       background-size: cover;    
       height: 100vh;
     }
+    .top-img {
+      margin-top: -110px;
+    }
     .fotos-text {
       font-size: 1.5em;  
       color: black;
