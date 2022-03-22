@@ -742,7 +742,7 @@ padding-top: 50px;
     .bg-topo {
       background: url(../assets/background/bg-topo.jpeg) left center no-repeat;
       background-size: cover;    
-      height: 110vh;
+      height: 100vh;
     }
     .top-img {
       margin-top: -50px;
