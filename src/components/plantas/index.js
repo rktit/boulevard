@@ -33,13 +33,13 @@ export default function Page(props) {
     ref.current.splide.go(value);
   }
   const arrayFotos = [
-    { planta: planta68, button: 'Planta 69m³' },
-    { planta: planta82, button: 'Planta 82m³' },
-    { planta: planta82Sala, button: 'Planta 82m³' },
-    { planta: duplexAB1, button: 'Duplex Torre AB' },
-    { planta: duplexAB2, button: 'Duplex Torre AB' },
-    { planta: duplexC1, button: 'Duplex Torre C' },
-    { planta: duplexC2, button: 'Duplex Torre C' },
+    { planta: planta68, button: 'Apto 69m²' },
+    { planta: planta82, button: 'Apto 82m²' },
+    { planta: planta82Sala, button: 'Apto 82m²' },
+    { planta: duplexAB1, button: 'Duplex 115m²' },
+    { planta: duplexAB2, button: 'Duplex 115m²' },
+    { planta: duplexC1, button: 'Duplex 146m²' },
+    { planta: duplexC2, button: 'Duplex 146m²' },
   ]
   const renderImg = (el) => {
     return (
@@ -120,10 +120,10 @@ export default function Page(props) {
                     <div className="px-12 pt-10">
                       <img src={plantas} className="max-w-max	" /></div>
                     <div className="px-4 py-4 pt-8 text-center">
-                      <div className="button69 py-7 px-2 justify-center items-center " onClick={() => { moveSlide(0) }} >Planta 69m³</div>
-                      <div className="button82 py-7 px-2 mt-2" onClick={() => { moveSlide(1) }} >Planta 82m³</div>
-                      <div className="buttonAB py-7 px-2 mt-2" onClick={() => { moveSlide(2) }} >Duplex Torre AB</div>
-                      <div className="buttonC py-7 px-2 mt-2" onClick={() => { moveSlide(3) }} >Duplex Torre C</div>
+                      <div className="button69 py-7 px-2 justify-center items-center " onClick={() => { moveSlide(0) }} >Apto 69m²</div>
+                      <div className="button82 py-7 px-2 mt-2" onClick={() => { moveSlide(1) }} >Apto 82m²</div>
+                      <div className="buttonAB py-7 px-2 mt-2" onClick={() => { moveSlide(2) }} >Duplex 115m²</div>
+                      <div className="buttonC py-7 px-2 mt-2" onClick={() => { moveSlide(3) }} >Duplex 146m²</div>
                     </div>
                   </div>
                 </div>
