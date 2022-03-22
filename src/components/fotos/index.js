@@ -7,31 +7,56 @@ import utils from '../../utils'
 import galeria from '../../assets/file/Galeria.png'
 import boulevard from '../../assets/logo/boulevard.png'
 
+
 import foto1 from '../../assets/static/Foto1.png'
+import foto01 from '../../assets/static/Foto-01.png'
 import foto2 from '../../assets/static/Foto2.png'
+import foto02 from '../../assets/static/Foto-02.png'
 import foto3 from '../../assets/static/Foto3.png'
+import foto03 from '../../assets/static/Foto-03.png'
 import foto4 from '../../assets/static/Foto4.png'
+import foto04 from '../../assets/static/Foto-04.png'
 import foto5 from '../../assets/static/Foto5.png'
+import foto05 from '../../assets/static/Foto-05.png'
 import foto6 from '../../assets/static/Foto6.png'
+import foto06 from '../../assets/static/Foto-06.png'
 import foto7 from '../../assets/static/Foto7.png'
+import foto07 from '../../assets/static/Foto-07.png'
 import foto8 from '../../assets/static/Foto8.png'
+import foto08 from '../../assets/static/Foto-08.png'
 import foto9 from '../../assets/static/Foto9.png'
+import foto09 from '../../assets/static/Foto-09.png'
 import foto10 from '../../assets/static/Foto10.png'
+import foto010 from '../../assets/static/Foto-10.png'
 import foto11 from '../../assets/static/Foto11.png'
+import foto011 from '../../assets/static/Foto-11.png'
 import foto12 from '../../assets/static/Foto12.png'
+import foto012 from '../../assets/static/Foto-12.png'
 import foto13 from '../../assets/static/Foto13.png'
+import foto013 from '../../assets/static/Foto-13.png'
 import foto14 from '../../assets/static/Foto14.png'
+import foto014 from '../../assets/static/Foto-14.png'
 import foto15 from '../../assets/static/Foto15.png'
+import foto015 from '../../assets/static/Foto-15.png'
 import foto16 from '../../assets/static/Foto16.png'
+import foto016 from '../../assets/static/Foto-16.png'
 import foto17 from '../../assets/static/Foto17.png'
-import foto017 from '../../assets/static/Foto-17.png'
+import foto017 from '../../assets/static/Foto017.png'
+import foto0017 from '../../assets/static/Foto-17.png'
 import foto18 from '../../assets/static/Foto18.png'
+import foto018 from '../../assets/static/Foto-18.png'
 import foto19 from '../../assets/static/Foto19.png'
+import foto019 from '../../assets/static/Foto-19.png'
 import foto20 from '../../assets/static/Foto20.png'
+import foto020 from '../../assets/static/Foto-20.png'
 import foto21 from '../../assets/static/Foto21.png'
+import foto021 from '../../assets/static/Foto-21.png'
 import foto22 from '../../assets/static/Foto22.png'
+import foto022 from '../../assets/static/Foto-22.png'
 import foto23 from '../../assets/static/Foto23.png'
+import foto023 from '../../assets/static/Foto-23.png'
 import foto24 from '../../assets/static/Foto24.png'
+import foto024 from '../../assets/static/Foto-24.png'
 import foto25 from '../../assets/static/Foto25.png'
 import foto26 from '../../assets/static/Foto26.png'
 import foto27 from '../../assets/static/Foto27.png'
@@ -48,40 +73,30 @@ export default function Page(props) {
   const [showBtn, setShowBtn] = useState(false)
   const [isMobile] = useState(utils.mobile());
   const arrayFotos = [
-    foto1,
-    foto2,
-    foto3,
-    foto4,
-    foto5,
-    foto6,
-    foto7,
-    foto8,
-    foto9,
-    foto10,
-    foto11,
-    foto12,
-    foto13,
-    foto14,
-    foto15,
-    foto16,
-    foto17,
-    foto017,
-    foto18,
-    foto19,
-    foto20,
-    foto21,
-    foto22,
-    foto23,
-    foto24,
-    foto25,
-    foto26,
-    foto27,
-    foto28,
-    foto29,
-    foto30,
-    foto31,
-    foto32,
-    foto33,
+    foto01,
+    foto02,
+    foto03,
+    foto04,
+    foto05,
+    foto06,
+    foto07,
+    foto08,
+    foto09,
+    foto010,
+    foto011,
+    foto012,
+    foto013,
+    foto014,
+    foto015,
+    foto016,
+    foto0017,
+    foto018,
+    foto019,
+    foto020,
+    foto021,
+    foto022,
+    foto023,
+    foto024,
   ];
 
   useEffect(() => {

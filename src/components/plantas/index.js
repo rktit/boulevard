@@ -5,13 +5,10 @@ import { Diferencial } from '../'
 
 import plantas from '../../assets/file/Plantas.png'
 
-import planta68 from '../../assets/static/planta_68.png'
+import planta69 from '../../assets/static/planta_69.png'
 import planta82 from '../../assets/static/planta_82.png'
-import planta82Sala from '../../assets/static/planta_82_sala.png'
-import duplexAB1 from '../../assets/static/duplex_AB1.png'
-import duplexAB2 from '../../assets/static/duplex_AB2.png'
-import duplexC1 from '../../assets/static/duplex_C1.png'
-import duplexC2 from '../../assets/static/duplex_C2.png'
+import duplex115 from '../../assets/static/duplex_115.png'
+import duplex146 from '../../assets/static/duplex_146.png'
 
 import { Splide, SplideSlide } from '@splidejs/react-splide'
 import '@splidejs/splide/dist/css/themes/splide-sea-green.min.css'
@@ -33,20 +30,19 @@ export default function Page(props) {
     ref.current.splide.go(value);
   }
   const arrayFotos = [
-    { planta: planta68, button: 'Apto 69m²' },
+    { planta: planta69, button: 'Apto 69m²' },
     { planta: planta82, button: 'Apto 82m²' },
-    { planta: planta82Sala, button: 'Apto 82m²' },
-    { planta: duplexAB1, button: 'Duplex 115m²' },
-    { planta: duplexAB2, button: 'Duplex 115m²' },
-    { planta: duplexC1, button: 'Duplex 146m²' },
-    { planta: duplexC2, button: 'Duplex 146m²' },
+    { planta: duplex115, button: 'Duplex 115m²' },
+    { planta: duplex146, button: 'Duplex 146m²' },
   ]
   const renderImg = (el) => {
     return (
-      <SplideSlide className="w-full place-content-center">
-        <img src={el.planta} className="px-1" />
+      <SplideSlide className="w-full">
         <div className="flex items-center justify-center">
-          <div className="button flex items-center justify-center mt-6 place-content-center">
+          <img src={el.planta} className="p-3 " />
+        </div>
+        <div className="flex items-center justify-center pt-4">
+          <div className="button flex items-center justify-center">
             {el.button}
           </div>
         </div>
@@ -73,8 +69,8 @@ export default function Page(props) {
         <div className="flex py-8 place-content-center">
           <img src={plantas} className="w-auto justify-center items-center" />
         </div>
-        <div className="flex-auto box-mobile mx-1 justify-center items-center">
-          <div className="justify-center self-center ">
+        <div className="box-mobile mx-2">
+          <div className="">
             <Splide
               className="splide-badges col-12"
               options={{
@@ -143,25 +139,16 @@ export default function Page(props) {
                       }}
                     >
                       <SplideSlide className="justify-center items-center" style={{ display: 'flex', alignSelf: 'center' }}>
-                        <img src={planta68} className="md-h-full" />
+                        <img src={planta69} className="md-h-full" />
                       </SplideSlide>
                       <SplideSlide className="justify-center items-center" style={{ display: 'flex', alignSelf: 'center' }}>
                         <img src={planta82} className="md-h-full" />
                       </SplideSlide>
                       <SplideSlide className="justify-center items-center" style={{ display: 'flex', alignSelf: 'center' }}>
-                        <img src={planta82Sala} className="md-h-full" />
+                        <img src={duplex115} className="md-h-full" />
                       </SplideSlide>
                       <SplideSlide className="justify-center items-center" style={{ display: 'flex', alignSelf: 'center' }}>
-                        <img src={duplexAB1} className="md-h-full" />
-                      </SplideSlide>
-                      <SplideSlide className="justify-center items-center" style={{ display: 'flex', alignSelf: 'center' }}>
-                        <img src={duplexAB2} className="md-h-full" />
-                      </SplideSlide>
-                      <SplideSlide className="justify-center items-center" style={{ display: 'flex', alignSelf: 'center' }}>
-                        <img src={duplexC1} className="md-h-full" />
-                      </SplideSlide>
-                      <SplideSlide className="justify-center items-center" style={{ display: 'flex', alignSelf: 'center' }}>
-                        <img src={duplexC2} className="md-h-full" />
+                        <img src={duplex146} className="md-h-full" />
                       </SplideSlide>
 
                     </Splide>
