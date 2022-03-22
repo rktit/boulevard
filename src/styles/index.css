@@ -704,6 +704,10 @@ padding-top: 50px;
     border-radius: 0.75rem;
     box-shadow: 0 25px 50px 10px rgb(0 0 0 / 0.25);
   }
+  .bg-topo {
+    background: url(../assets/background/bg-topo.jpeg) left center no-repeat;
+    background-size: cover;    
+  }
 }
   @media (max-width: 395px) {
     .mapa-address {
@@ -738,11 +742,12 @@ padding-top: 50px;
     .bg-topo {
       background: url(../assets/background/bg-topo.jpeg) left center no-repeat;
       background-size: cover;    
-      height: 100vh;
+      height: 110vh;
     }
     .top-img {
-      margin-top: -110px;
+      margin-top: -50px;
     }
+    
     .fotos-text {
       font-size: 1.5em;  
       color: black;
