@@ -1,5 +1,6 @@
 // import SaibaMais from "./saiba-mais";
 
+import Aplicativo from "./aplicativo";
 import Topo from "./topo";
 import Descrição from "./descricao";
 import Fotos from "./fotos";
@@ -12,7 +13,7 @@ import Rodape from "./rodape";
 
 export {
 // SaibaMais,
-
+  Aplicativo,
   Topo,
   Descrição,
   Fotos,

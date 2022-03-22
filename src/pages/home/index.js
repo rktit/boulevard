@@ -4,6 +4,7 @@ import { configureAnchors } from "react-scrollable-anchor";
 import {
   // SaibaMais,
 
+  Aplicativo,
   Topo,
   Descrição,
   Fotos,
@@ -20,7 +21,7 @@ const Home_Page = () => {
   return (
     <div>
       {/* <SaibaMais /> */}
-
+      <Aplicativo />
       <Topo />
       <Descrição />
       <Fotos />
