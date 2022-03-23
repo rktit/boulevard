@@ -2,7 +2,6 @@ import React, { useEffect, useRef, useState } from 'react'
 import ScrollableAnchor from 'react-scrollable-anchor'
 
 import { Fade } from 'react-reveal'
-import { Aplicativo } from '../'
 
 
 import boulevard from '../../assets/logo/logoBoulevard.png'
@@ -36,6 +35,7 @@ export default function Page(props) {
 
   return (
     <ScrollableAnchor id={'home'}>
+      
       <div className="bg-topo">
         <Fade>
           <div className="flex flex-col">
@@ -62,7 +62,6 @@ export default function Page(props) {
                 </button>
               </div>
             </div>
-            <Aplicativo />
 
           </div>
         </Fade>
