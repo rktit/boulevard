@@ -461,7 +461,7 @@ padding-top: 50px;
   padding-right: 200px;
 }
 .whats-message {
-  z-index: 99999999;
+  z-index: 999999;
 }
 
 .w3-modal-content {
@@ -709,7 +709,7 @@ padding-top: 50px;
     background-size: cover;    
   }
 }
-  @media (max-width: 395px) {
+  @media (max-width: 420px) {
     .mapa-address {
       font-size: 0.8em;
       line-height: 100%;
@@ -729,7 +729,7 @@ padding-top: 50px;
       text-transform: uppercase;
       font-family: "Montserrat-Bold";
       bottom: 45px;
-      left: 70px;
+      text-align: center;
     }
     .mapa-whats {
       font-size: 0.75em;
@@ -737,7 +737,7 @@ padding-top: 50px;
       color: white;
       font-family: "Montserrat-Bold";
       bottom: 30px;
-      left: 55px;
+      text-align: center;
     }
     .bg-topo {
       background: url(../assets/background/bg-topo.jpeg) left center no-repeat;
