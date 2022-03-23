@@ -1,12 +1,10 @@
 
 import React, { useEffect, useState } from 'react'
-import ScrollableAnchor, { goToAnchor } from 'react-scrollable-anchor'
 
 import whats from '../../assets/icon/whatsapp.png'
 
 export default function Page(props) {
   return (
-    <ScrollableAnchor id={''}>
       <div className="fixed right-6 md:right-2 bottom-10 md:bottom-8 whats-message">
         <a
           target="_blank"
@@ -19,6 +17,5 @@ export default function Page(props) {
           />
         </a>
       </div>
-    </ScrollableAnchor>
   )
 }

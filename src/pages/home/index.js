@@ -21,7 +21,7 @@ const Home_Page = () => {
   return (
     <div>
       {/* <SaibaMais /> */}
-      <Aplicativo />
+      {/* <Aplicativo /> */}
       <Topo />
       <Descrição />
       <Fotos />
