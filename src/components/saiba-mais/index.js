@@ -61,6 +61,7 @@ export default function Page(props) {
             <div className="pl-20 md:pl-72">
 
               <button
+                onClick={() => window.location = "https://www.caprem.com.br/boulevard-de-rose"}
                 className="w-auto flex justify-center py-3 px-20 mt-4 border border-transparent text-sm font-medium rounded-lg text-white button-cadastro"
               >
                 Saiba Mais

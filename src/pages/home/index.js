@@ -2,16 +2,16 @@ import React from "react";
 import { configureAnchors } from "react-scrollable-anchor";
 
 import {
-  // SaibaMais,
+  SaibaMais,
 
-  Aplicativo,
-  Topo,
-  Descrição,
-  Fotos,
-  Plantas,
-  Diferencial,
-  Exclusivo,
-  Mapa,
+  // Aplicativo,
+  // Topo,
+  // Descrição,
+  // Fotos,
+  // Plantas,
+  // Diferencial,
+  // Exclusivo,
+  // Mapa,
   Rodape,
 } from "../../components";
 
@@ -20,16 +20,16 @@ const Home_Page = () => {
 
   return (
     <div>
-      {/* <SaibaMais /> */}
-      <Aplicativo />
+      <SaibaMais />
+      {/* <Aplicativo />
       <Topo />
       <Descrição />
       <Fotos />
-      <Plantas />
+      <Plantas /> */}
       {/* <Diferencial /> */}
-      <Exclusivo />
+      {/* <Exclusivo />
       <Mapa />
-      <Rodape />
+      <Rodape /> */}
     </div>
   );
 };
