@@ -376,15 +376,13 @@ padding-top: 50px;
 }
 
 .saiba-title {
-  font-size: 2em;  
-  color: black;
-  font-family: Montserrat-Medium;
+  font-size: 4em;  
+  color: #a40372;
+  font-family: Amalfi-Coast;
 }
 .saiba-text {
   font-size: 1.5em;  
   color: black;
-  justify-items: center;
-  justify-content: center;
   font-family: Montserrat-Medium;
 }
 .exclusivo-title {
@@ -816,6 +814,16 @@ padding-top: 50px;
       background-color: #ffffff;
       border-radius: 0.75rem;
       box-shadow: 0 25px 50px 10px rgb(0 0 0 / 0.25);
+    }
+    .saiba-title {
+      font-size: 2.5em;  
+      color: #a40372;
+      font-family: Amalfi-Coast;
+    }
+    .saiba-text {
+      font-size: 1.1em;  
+      color: black;
+      font-family: Montserrat-Medium;
     }
 }
 

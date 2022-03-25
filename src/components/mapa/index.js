@@ -4,7 +4,7 @@ import ScrollableAnchor, { goToAnchor } from 'react-scrollable-anchor'
 
 import mapa from '../../assets/static/mapa.jpeg'
 import visite from '../../assets/file/visite-local.png'
-import previlegiada from '../../assets/file/local.png'
+import privilegiada from '../../assets/file/local.png'
 
 
 export default function Page(props) {
@@ -14,7 +14,7 @@ export default function Page(props) {
         <Fade duration={2000}>
           <div className="w-full flex flex-col">
             <div className="flex-auto justify-center self-center">
-              <img src={previlegiada} className="w-2/3 md:w-auto px-10 md:px-0 pt-14" />
+              <img src={privilegiada} className="w-2/3 md:w-auto px-10 md:px-0 pt-14" />
               <img src={mapa} className="w-auto px-6" />
             </div>
             <div className="w-full">
@@ -35,14 +35,14 @@ export default function Page(props) {
               <div className="relative flex flex-auto justify-center  self-center pt-6 md:pt-10 pb-6 md:pb-14">
                 <a
                   target="_blank"
-                  href="https://api.whatsapp.com/send?phone=5519991255659" >
+                  href="https://api.whatsapp.com/send?phone=5519974139043" >
                   <img src={visite} className="w-auto px-10 md:px-0" />
                   <div className="flex justify-center">
                     <div className="absolute mapa-visite">
                       visite o decorado no local
                     </div>
                     <div className="absolute mapa-whats">
-                      Agende sua visita pelo Whatspp: (19) 99125.5659
+                      Agende sua visita pelo Whatspp: (19) 97413.9043
                     </div>
                   </div>
                 </a>

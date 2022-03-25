@@ -34,27 +34,34 @@ export default function Page(props) {
 
   return (
     <ScrollableAnchor id={'home'}>
-      <div className="bg-topo px-4 md:px-1 py-24">
+      <div className="bg-topo h-screen">
         <Fade>
-          <div className="topo-text">
-            Aprecie a vida!</div>
-          <div className="flex-col pl-12 md:pl-52 pt-24 md:pt-36 pb-24 px-10 md:px-0">
-            <img
-              src={boulevard}
-              width="300"
-            />
-          </div>
-          <div className="ml-6 md:ml-32">
-            <div className="w-full flex flex-col pb-2 md:pb-40 pl-4 md:pl-12">
-              <div className="saiba-title">
+          <div className="flex-col">
+            <div className="pr-6 md:pr-0 pl-6 md:pl-48">
+              <img
+                src={boulevard}
+                width="400"
+              />
+            </div>
+            <div className="pl-20 md:pl-48">
+
+              <div className="saiba-title pb-10 pt-10">
                 Obrigado!
               </div>
-              <div className="saiba-text">
-                Recebemos seu contato e em breve retornaremos
+            </div>
+
+            <div className="flex items-start pl-4 md:pl-40">
+
+              <div className="saiba-text text-center">
+                Seu contato já está conosco! <br />
+                Em breve entraremos em contato com você.
               </div>
+            </div>
+
+            <div className="pl-20 md:pl-72">
 
               <button
-                className="w-auto md:w-2/5 flex justify-center py-3 px-20 sm:px-44 md:px-4 mt-4 border border-transparent text-sm font-medium rounded-lg text-white button-cadastro"
+                className="w-auto flex justify-center py-3 px-20 mt-4 border border-transparent text-sm font-medium rounded-lg text-white button-cadastro"
               >
                 Saiba Mais
               </button>
