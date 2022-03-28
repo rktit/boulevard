@@ -175,7 +175,7 @@ a {
 .bg-topo {
   background: url(../assets/background/bg-topo.jpeg) center center no-repeat;
   background-size: cover; 
-  padding-top: 145px;
+  padding-top: 40px;
   padding-bottom: 85px;
 }
 .topo-text {
@@ -505,11 +505,24 @@ padding-top: 50px;
   fill: black !important;
 }
 
-
-@media (max-width: 1560px) {
-
+@media (max-width: 2160px) {
+  .bg-topo {
+    background: url(../assets/background/bg-topo.jpeg) center center no-repeat;
+    background-size: cover; 
+    padding-top: 100px;
+    padding-bottom: 85px;
+  }
+}
+@media (max-width: 1380px) {
+  .bg-topo {
+    background: url(../assets/background/bg-topo.jpeg) center center no-repeat;
+    background-size: cover; 
+    padding-top: 30px;
+    padding-bottom: 85px;
+  }
 }
 @media (max-width: 991px) {
+  
 }
 @media (max-width: 767px) {
   .bg-topo {

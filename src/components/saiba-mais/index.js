@@ -45,7 +45,7 @@ export default function Page(props) {
             </div>
             <div className="pl-20 md:pl-48">
 
-              <div className="saiba-title pb-10 pt-10">
+              <div className="saiba-title pb-4 md:pb-10 pt-10">
                 Obrigado!
               </div>
             </div>
