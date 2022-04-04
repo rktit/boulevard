@@ -42,7 +42,7 @@ export default function Page(props) {
                       visite o decorado no local
                     </div>
                     <div className="absolute mapa-whats">
-                      Agende sua visita pelo Whatspp: (19) 97413.9043
+                      Agende sua visita pelo Whatsapp: (19) 97413.9043
                     </div>
                   </div>
                 </a>
